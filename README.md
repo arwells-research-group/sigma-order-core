@@ -1,4 +1,4 @@
-# Dual-Frame Theory (DFT): A Scalar-Motion Framework
+# Dual-Frame Research Group: Core Theory Hub
 
 This repository serves as the primary theoretical foundation for **Dual-Frame Theory (DFT)**—a developmental exposition of physics based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic quantum phenomena to microscopic atomic structures through the mechanics of **T-frame winding sectors**.
 
