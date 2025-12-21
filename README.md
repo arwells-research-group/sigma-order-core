@@ -45,8 +45,9 @@ This foundation provides the formal logic for the following public implementatio
 ## 4. Repository Structure
 * **[01_foundations/](./01_foundations/)**: The Scalar-Motion Axiom, the Unit Datum, and T/S Dual-Frame architecture.
 * **[02_mechanics/](./02_mechanics/)**: Winding sectors, Background Phase Geometry (BPG), and the Coherence Hierarchy.
-* **[03_verifications/](./03_verifications/)**: Detailed proofs of atomic residuals and kernel physicality.
-* **[04_synthesis/](./04_synthesis/)**: The unification of physical constants and the Continuum Limit.
+* **[03_verifications/](./03_verifications/)**: Detailed proofs of atomic residuals (GOR) and the T-frame logic of NIST data.
+* **[04_spatial_geometry/](./04_spatial_geometry/)**: The 3.8 Bohr Coherence Aperture ($L$) and the "Decoherence Cliff" at Period 5.
+* **[05_synthesis/](./05_synthesis/)**: Unification of constants ($\alpha$, Lamb Shift) and the transition to the Continuum Limit.
 
 ## 5. Verification Standards
 For details on the scientific standards and reproducibility protocols used across these projects, see **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
