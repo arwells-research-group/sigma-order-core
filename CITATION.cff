@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you utilize the theoretical framework of Dual-Frame Theory (DFT) 
+  in your research or derivative models, please cite this foundational 
+  repository.
+title: "Dual-Frame Theory (DFT): A Scalar-Motion Framework"
+type: dataset
+version: "1.0.0"
+date-released: "2025-12-21"
+authors:
+  - family-names: Wells
+    given-names: "A. R."
+    affiliation: "Dual-Frame Research Group"
+repository-code: "https://github.com/arwells-research/dft-core-theory"
+license: CC-BY-4.0
+keywords:
+  - dual-frame theory
+  - scalar motion
+  - background phase geometry
+  - winding sectors
+  - coherence aperture
+  - quantum foundations
+  - reciprocity
+abstract: >-
+  The foundational theoretical repository for Dual-Frame Theory (DFT). 
+  It provides the formal derivation of the T/S frame duality, the 
+  topological winding sector logic of atomic and macroscopic states, 
+  and the geometric rationale for the 3.8 Bohr coherence aperture.
+notes: >-
+  This repository serves as the conceptual "Source of Truth" for the 
+  Dual-Frame framework. For computational verification and raw data 
+  analysis engines, refer to the individual repositories under the 
+  arwells-research organization.
