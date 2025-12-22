@@ -1,6 +1,6 @@
 # 3. Verification: Atomic Residuals and the GOR
 
-The ultimate test of any physical theory is its ability to predict or explain anomalous data that standard models treat as "emergent" or "complex." In DFT, the **Geometric Occupancy Rule (GOR)** is the integer-based signature of T-frame winding sectors manifesting in the S-frame.
+One of the strongest tests of any physical theory is its ability to predict or explain anomalous data that standard models treat as "emergent" or "complex." In DFT, the **Geometric Occupancy Rule (GOR)** is the integer-based signature of T-frame winding sectors manifesting in the S-frame.
 
 ## 3.1 The GOR Phenomenon
 When analyzing the First Ionization Energies (FIE) of the $p$-block elements across the Periodic Table, standard Quantum Mechanics (QM) attributes the non-linearities to "electron-electron correlation" and "exchange energy." 
@@ -9,7 +9,7 @@ DFT, however, identifies a fixed geometric pattern in the residuals of these ene
 
 ### 3.1.1 The $+3 / -4$ Signature
 For elements in Periods 2, 3, and 4, the residuals ($R$) follow a strict rule:
-- **$p^3$ (Symmetry Bonus):** $R \approx +3$ units.
+- **$p^3$ (Symmetry Bonus):** $R \approx +3$ units (normalized CAF residual units).
 - **$p^4$ (Collision Penalty):** $R \approx -4$ units.
 
 These are not arbitrary curve-fitting parameters. They represent the **Curvature Offset** of the T-frame winding sectors.

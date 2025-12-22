@@ -16,6 +16,37 @@ In this framework:
 
 Neither aspect has an existence independent of the other. Just as a rectangle cannot have a "length" without a "width" while still maintaining an "area," physical reality cannot have space without an equivalent temporal component.
 
+### 1.1.2 Historical Context and Intellectual Lineage
+
+The core premise that **motion is primary**, and that space and time are reciprocal
+aspects of that motion, was articulated most clearly in the mid-20th century by
+**Dewey B. Larson** in his development of the *Reciprocal System of Theory*.  
+Dual-Frame Theory builds upon this foundational insight while departing
+substantially in formal structure, scope, and verification methodology.
+
+Related process-first views appear in the philosophy of **Samuel Alexander**
+(*Space, Time, and Deity*, 1920), though without the mathematical or empirical
+structure required for physical theory.
+
+Dual-Frame Theory (DFT) is **not a restatement or extension of Larson’s system**,
+nor does it adopt many of its specific physical claims. However, DFT explicitly
+acknowledges Larson’s foundational insight: that treating space and time as
+independent containers obscures deeper structural constraints on physical law.
+
+DFT departs from the Reciprocal System in several essential ways:
+
+- DFT introduces an explicit **dual-frame projection architecture (T/S frames)**,
+  rather than a single abstract reciprocal description.
+- Quantization in DFT is formulated through **topological winding sectors and
+  compact manifolds**, rather than purely arithmetic progression rules.
+- All DFT claims are constrained by **public data, reproducibility standards,
+  and explicit falsification criteria**, as defined in
+  `VERIFICATION_PRINCIPLES.md`.
+
+Larson’s work is therefore best understood as an intellectual precursor: it correctly identified the primacy of motion, but did not possess the geometric, topological, and statistical machinery required for modern validation.
+
+Dual-Frame Theory builds on the *idea*, not the *implementation*, of that insight.
+
 ## 1.2 The Unit Datum (The Progression)
 The universe is not naturally at "rest." In a system of pure motion, the baseline or "ground state" is not 0, but **Unity**. 
 

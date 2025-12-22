@@ -12,7 +12,7 @@ As modeled in **`mzi-phase-diffusion`**, first-order coherence describes the sta
 ### 2.7.2 Second-Order Coherence: Bunching and Statistics
 As explored in **`g2-phase-statistics`** and **`hom-phase-diffusion`**, second-order coherence ($g^{(2)}$) involves the joint arrival statistics of two phase packets.
 * **HBT Bunching:** In DFT, this is viewed as a phase-driven correlation where $g^{(2)}(\tau)$ is a projection of the first-order envelope $|g^{(1)}(\tau)|^2$.
-* **HOM Interference:** This represents a "geometric collision" at a beam splitter. DFT reproduces the HOM dip by modeling the deterministic phase diffusion of the trajectories, proving that the effect is a property of the phase geometry rather than wavefunction anti-symmetrization.
+* **HOM Interference:** This represents a "geometric collision" at a beam splitter. DFT reproduces the HOM dip by modeling the deterministic phase diffusion of the trajectories, demonstrating that the effect is a property of the phase geometry rather than wavefunction anti-symmetrization.
 
 
 

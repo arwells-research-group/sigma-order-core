@@ -16,7 +16,7 @@ The most striking evidence for this aperture is the sudden collapse of the GOR r
 By performing a radial integral of the $p$-shell probability density, we can calculate the **Coherence Factor ($G_n$)**:
 $$G_n = \int_{0}^{L} \Psi_{np}^2(r) \, dr$$
 
-- **Periods 2–4:** The $2p, 3p,$ and $4p$ orbitals are largely contained within $L$. The "handshake" efficiency is $\approx 1.0$.
+- **Periods 2–4:** The $2p, 3p,$ and $4p$ orbitals are largely contained within $L$. The "handshake" efficiency is $\approx 1.0$. The "handshake" refers to sustained phase coherence between winding trajectories mediated by the background geometry.
 - **Period 5:** The $5p$ orbital is physically larger. Its radial "tail" spills past the $3.8\,a_0$ fence. 
 - **The Result:** The phase-lock fails. The winding trajectories can no longer maintain perfect symmetry/collision offsets, causing the residuals to drop by approximately 45%.
 

@@ -1,4 +1,4 @@
-# 5. Synthesis: Spectral Shifts and the Universal Constant
+# 5. Synthesis: Spectral Shifts and the Universal Geometry
 
 The ultimate goal of Dual-Frame Theory is to demonstrate that the discrete phenomena of the microscopic world (atomic spectra) and the macroscopic world (quantized flux) arise from a single, underlying **Background Phase Geometry (BPG)**.
 
@@ -11,7 +11,7 @@ The Fine Structure Constant, $\alpha \approx 1/137$, is traditionally viewed as 
 ### 5.1.1 The Ratio of Curvatures
 $\alpha$ represents the "Energy Tax" or curvature cost incurred when a T-frame winding trajectory is projected onto the S-frame manifold. Because the BPG is non-flat (as established in Section 2.5), every unit of spatial displacement carries a mandatory phase-offset. 
 
-The value of $\alpha$ is the numerical expression of this **Phase-to-Space scaling factor**.
+The value of $\alpha$ is the numerical expression of this **Phase-to-Space scaling factor**. In this framework, $\alpha$ characterizes this geometric scaling, though its precise numerical value is not derived here and remains an empirical constant.
 
 ## 5.2 Unifying the Lamb Shift and the GOR
 
