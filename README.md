@@ -53,12 +53,17 @@ DFT reinterprets "quantum" coherence as the stability of the T-frame phase-lock.
 ### 2.3 The Coherence Aperture ($L$)
 The theory predicts a natural limit to phase-locking at approximately $3.8 \, a_0$. This aperture defines the boundary where the T-frame manifold transitions from a locked resonance to a decoherent state, providing the geometric rationale for the structure of the Periodic Table.
 
+While DFT is primarily a geometric framework, several associated projects test whether parameter-light, structure-separating laws emerge in empirical domains governed by lifetime, coherence, or stability constraints.
+
 ## 3. Associated Research Repositories
 This foundation provides the formal logic for the following public implementations within the `arwells-research` organization. The repository is organized as a progressive development from axioms to synthesis:
 
 ### Atomic & Structural Physics
 * **[`gor-caf`](https://github.com/arwells-research/gor-caf)**: Analyzes NIST First Ionization Energies to verify the $+3/-4$ GOR residuals. *(tags: NIST, periodic table, residuals)*
 * **[`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model)**: Computational verification of the 3.8 Bohr coherence aperture ($L$) and Period 5 decoherence. *(tags: coherence aperture, shell structure, validation)*
+
+### Nuclear Decay & Lifetime Scaling
+* **[`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics)**: Establishes and validates a universal hazard law for β-decay and electron-capture lifetimes using relativistic phase-space scaling and channel-aware ENSDF log ft values. Coefficients are frozen; deviations isolate nuclear-structure effects via residuals. *(tags: beta decay, half-lives, ENSDF, phase space, residuals)*
 
 ### Macroscopic Vacuum & MEMS
 * **[`casimir-mems-geometry`](https://github.com/arwells-research/casimir-mems-geometry)**: (in development) Leveled validation of Casimir-force modeling. Establishes the transition from local PFA to nonlocal scattering as a requirement of Background Phase Geometry (BPG). *(tags: Casimir, MEMS, PFA, DE, scattering, geometry)*
