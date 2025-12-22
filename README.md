@@ -63,6 +63,9 @@ This foundation provides the formal logic for the following public implementatio
 ### Macroscopic Vacuum & MEMS
 * **[`casimir-mems-geometry`](https://github.com/arwells-research/casimir-mems-geometry)**: (in development) Leveled validation of Casimir-force modeling. Establishes the transition from local PFA to nonlocal scattering as a requirement of Background Phase Geometry (BPG). *(tags: Casimir, MEMS, PFA, DE, scattering, geometry)*
 
+### Astrophysical Kinematics & Large-Scale Structure
+* **[`dft-astro-nonlocal-kinematics`](https://github.com/arwells-research/dft-astro-nonlocal-kinematics)**: Verification pipeline testing a DFT-inspired nonlocal kinematic model against SPARC galaxy rotation curves. Uses fixed nonlocal kernels and deterministic holdout gates to assess whether parameter-light geometry can reproduce galactic dynamics without halo fitting. *(tags: rotation curves, nonlocal gravity, SPARC, kinematics)*
+
 ### Quantum Optics & Coherence
 * **[`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion)**: Modeling first-order interference visibility $V(\tau)$ as a statistical phase-coherence observable. *(tags: MZI, visibility, phase noise)*
 * **[`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics)**: Modeling second-order intensity correlations $g^2(\tau)$ and mechanism separation in bunching. *(tags: g2, bunching, statistics)*
