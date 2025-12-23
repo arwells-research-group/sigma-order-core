@@ -90,8 +90,7 @@ or applied extension of the core DFT framework defined here.
 * **[`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)**: Analytic derivation of Bell-type correlations as an emergent feature of long-range joint phase evolution. *(tags: Bell, joint phase, derivation)*
 
 
-
-## 4. Repository Structure
+## 4. Logical Structure of the Core Theory
 * **[01_foundations/](./01_foundations/)**: The Scalar-Motion Axiom, the Unit Datum, and T/S Dual-Frame architecture.
 * **[02_mechanics/](./02_mechanics/)**: Winding sectors, Background Phase Geometry (BPG), and the Coherence Hierarchy.
 * **[03_verifications/](./03_verifications/)**: Detailed proofs of atomic residuals (GOR) and the T-frame logic of NIST data.
