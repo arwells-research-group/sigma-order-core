@@ -38,9 +38,9 @@ DFT is **not**:
 - a replacement for established computational frameworks (QFT, Lifshitz theory),
 - or a claim that standard physics is “wrong.”
 
-Where conventional models succeed, DFT must reduce to them. Where they fail or
-require regime-specific assumptions, DFT seeks to explain *why* those limits
-exist and what geometric structure underlies them.
+Where conventional models are empirically successful, DFT must reproduce their 
+validated predictions in the appropriate limits, while potentially offering 
+deeper explanatory structure or reduced complexity.
 
 A concise statement of falsifiability and verification standards is provided in
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
