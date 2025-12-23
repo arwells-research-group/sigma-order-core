@@ -1,6 +1,12 @@
 # Dual-Frame Research Group: Core Theory Hub
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18027076.svg)](https://doi.org/10.5281/zenodo.18027076)
 
-This repository serves as the primary theoretical foundation for **Dual-Frame Theory (DFT)**—a developmental exposition of physics based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic quantum phenomena to microscopic atomic structures through the mechanics of **T-frame winding sectors**. This repository is a conceptual and organizational index for the Dual-Frame research ecosystem.
+**Purpose:** Provide a parameter-light, geometry-first framework that explains
+quantization, coherence limits, and correlation structure across quantum,
+atomic, and macroscopic systems — with explicit falsifiability.
+
+This repository serves as the canonical, citable theoretical foundation for
+**Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic quantum phenomena to microscopic atomic structures through the mechanics of **T-frame winding sectors**. This repository is a conceptual and organizational index for the Dual-Frame research ecosystem.
 
 ## 1. Overview
 Dual-Frame Theory (DFT) departs from background-dependent physics by postulating that space and time are the reciprocal aspects of a universal scalar motion. By projecting this motion through two distinct frames—the **Temporal/Trajectory (T)** frame and the **Spatial/Standard (S)** frame—we derive the laws of physics as consequences of topological coherence and background curvature.
@@ -58,6 +64,9 @@ While DFT is primarily a geometric framework, several associated projects test w
 ## 3. Associated Research Repositories
 This foundation provides the formal logic for the following public implementations within the `arwells-research` organization. The repository is organized as a progressive development from axioms to synthesis:
 
+Each repository below implements a falsifiable test, numerical validation,
+or applied extension of the core DFT framework defined here.
+
 ### Atomic & Structural Physics
 * **[`gor-caf`](https://github.com/arwells-research/gor-caf)**: Analyzes NIST First Ionization Energies to verify the $+3/-4$ GOR residuals. *(tags: NIST, periodic table, residuals)*
 * **[`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model)**: Computational verification of the 3.8 Bohr coherence aperture ($L$) and Period 5 decoherence. *(tags: coherence aperture, shell structure, validation)*
@@ -96,3 +105,10 @@ For details on the scientific standards and reproducibility protocols used acros
 
 A concise statement of falsifiability criteria for Dual-Frame Theory is provided
 in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md#what-would-falsify-dual-frame-theory-dft)**.
+
+## Citation
+
+If you use or reference this work, please cite:
+
+A. R. Wells (2025). *Dual-Frame Theory: Core Framework* (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.18027076
