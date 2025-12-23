@@ -47,6 +47,8 @@ A concise statement of falsifiability and verification standards is provided in
 
 ## 2. Key Theoretical Pillars
 
+These pillars define geometric constraints shared across all DFT applications. Individual systems differ in dynamics, but not in the admissible phase-space structure imposed by the dual-frame projection.
+
 ### 2.1 Winding Sector Selection
 Quantization is a topological requirement. For a motion-trajectory to project stably into the S-frame, it must satisfy a winding condition on the compact T-frame manifold. This governs the discrete energy levels of atomic orbitals and the quantized fluxoids in superconductivity.
 
@@ -60,6 +62,30 @@ DFT reinterprets "quantum" coherence as the stability of the T-frame phase-lock.
 The theory predicts a natural limit to phase-locking at approximately $3.8 \, a_0$. This aperture defines the boundary where the T-frame manifold transitions from a locked resonance to a decoherent state, providing the geometric rationale for the structure of the Periodic Table.
 
 While DFT is primarily a geometric framework, several associated projects test whether parameter-light, structure-separating laws emerge in empirical domains governed by lifetime, coherence, or stability constraints.
+
+## Status of the Framework
+
+Dual-Frame Theory (DFT) is presented here as a **sufficiency-oriented geometric framework**, not currently presented as a fully constructive microscopic dynamics.
+
+Specifically:
+
+- **Derived / verified:**  
+  Discrete winding constraints, coherence hierarchies, empirical invariants
+  (e.g., GOR residuals, coherence aperture $L$), and nonlocal kinematic fits
+  are validated against public datasets using fixed parameters and explicit
+  falsification gates.
+
+- **Phenomenological but constrained:**  
+  Effective variance laws, diffusion envelopes, and kernel forms are introduced as minimal sufficient descriptions, consistent with the DFT axioms and bounded by explicit falsification criteria, pending deeper derivation from progression-step microdynamics.
+
+- **Under active development:**  
+  Microscopic constructions (e.g., cumulant expansions of phase evolution from
+  motion budgets, continuum-limit scaling) and formal mappings to standard
+  QM/GR limits.
+
+The intent of this repository is to **establish what must be explained**, not to
+prematurely assert how every mechanism arises. Any future constructive model
+must reproduce the empirical constraints and invariants documented here.
 
 ## 3. Associated Research Repositories
 This foundation provides the formal logic for the following public implementations within the `arwells-research` organization. The repository is organized as a progressive development from axioms to synthesis:
