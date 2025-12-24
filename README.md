@@ -114,10 +114,12 @@ or applied extension of the core DFT framework defined here.
 ### Quantum Computing & Hardware Diagnostics
 * **[`qc-phase-budget-metrics`](https://github.com/arwells-research/qc-phase-budget-metrics)**: Execution-time phase-budget diagnostics for quantum circuits. Exposes why logically equivalent circuits (equal depth, gate count, or global T₂) diverge on real hardware due to scheduling- and idle-placement effects, using per-qubit, timeline-aware dephasing accounting. Phase budget is charged only while a qubit is coherence-relevant (idle before preparation is uncharged). Validated on IBM hardware under the Open Plan using Wilson 95% confidence intervals and explicit pass/fail ordering gates. *(tags: quantum computing, quantum circuits, quantum gate scheduling, transpilation, idle time, slack, padding, dephasing, hardware diagnostics)*
 
+### Information Theory & Representation (Domain Bridge)
+* **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)**
+  
 ### Foundations & Bell Tests
 * **[`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase)**: Modeling the degradation of Bell-CHSH correlations under detection jitter and phase-noise. *(tags: CHSH, noise, correlations)*
 * **[`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)**: Analytic derivation of Bell-type correlations as an emergent feature of long-range joint phase evolution. *(tags: Bell, joint phase, derivation)*
-
 
 ## 4. Logical Structure of the Core Theory
 * **[01_foundations/](./01_foundations/)**: The Scalar-Motion Axiom, the Unit Datum, and T/S Dual-Frame architecture.
