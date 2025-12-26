@@ -96,7 +96,8 @@ or applied extension of the core DFT framework defined here.
 ### Atomic & Structural Physics
 * **[`gor-caf`](https://github.com/arwells-research/gor-caf)**: Analyzes NIST First Ionization Energies to verify the $+3/-4$ GOR residuals. *(tags: NIST, periodic table, residuals)*
 * **[`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model)**: Computational verification of the 3.8 Bohr coherence aperture ($L$) and Period 5 decoherence. *(tags: coherence aperture, shell structure, validation)*
-
+* **[`closure-core-lamb-shift`](https://github.com/arwells-research/closure-core-lamb-shift)**: Closure-first geometric reinterpretation of the hydrogen Lamb shift as a relative phase-closure diagnostic. Establishes structural necessity, locality, and qualitative S≫P hierarchy without precision QED calculation. Includes explicit falsification criteria and documented gaps. *(tags: Lamb shift, closure diagnostics, atomic structure)*
+  
 ### Nuclear Decay & Lifetime Scaling
 * **[`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics)**: Establishes and validates a universal hazard law for β-decay and electron-capture lifetimes using relativistic phase-space scaling and channel-aware ENSDF log ft values. Coefficients are frozen; deviations isolate nuclear-structure effects via residuals. *(tags: beta decay, half-lives, ENSDF, phase space, residuals)*
 
