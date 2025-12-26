@@ -111,9 +111,6 @@ or applied extension of the core DFT framework defined here.
 * **[`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics)**: Modeling second-order intensity correlations $g^2(\tau)$ and mechanism separation in bunching. *(tags: g2, bunching, statistics)*
 * **[`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)**: Reproducing Hong–Ou–Mandel bunching through deterministic phase diffusion. *(tags: HOM, two-photon interference, diffusion)*
 
-### Quantum Computing & Hardware Diagnostics
-* **[`qc-phase-budget-metrics`](https://github.com/arwells-research/qc-phase-budget-metrics)**: Execution-time phase-budget diagnostics for quantum circuits. Exposes why logically equivalent circuits (equal depth, gate count, or global T₂) diverge on real hardware due to scheduling- and idle-placement effects, using per-qubit, timeline-aware dephasing accounting. Phase budget is charged only while a qubit is coherence-relevant (idle before preparation is uncharged). Validated on IBM hardware under the Open Plan using Wilson 95% confidence intervals and explicit pass/fail ordering gates. *(tags: quantum computing, quantum circuits, quantum gate scheduling, transpilation, idle time, slack, padding, dephasing, hardware diagnostics)*
-
 ### Information Theory & Representation (Domain Bridge)
 * **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)**
   
