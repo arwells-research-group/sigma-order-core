@@ -32,26 +32,6 @@ The following repositories serve as the primary evidence stack for the principle
 | **[`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase)** | Foundations | **Production** | CHSH degradation vs. Jitter and Windowing. |
 | **[`bell-correlations...`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)** | Foundations | **Analytic (theory)** | Tsirelson bound as a dynamical limit. |
 
-### 4.1 Diagnostic and Infrastructure Projects
-Some repositories in the Dual-Frame Research Group ecosystem serve as
-diagnostic or engineering infrastructure rather than direct tests of
-Dual-Frame Theory itself.
-
-These projects:
-- do not assert geometric necessity,
-- do not introduce new DFT claims,
-- and are not evaluated under the zero-parameter or winding-sector criteria.
-
-Instead, they provide falsifiable, execution-level diagnostics that support
-or motivate later theory-driven investigations.
-
-Examples include:
-- qc-phase-budget-metrics (execution-time coherence diagnostics for quantum circuits)
-
-Such projects must remain explicitly scoped, empirically validated, and
-mechanism-separating, but are not themselves considered confirmations or
-refutations of Dual-Frame Theory.
-
 ## 5. Summary of the Verification Protocol
 For a third party to verify the DFT framework:
 1.  **Run `gor-caf`** to see the integer quantization of atomic shells.
