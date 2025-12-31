@@ -107,9 +107,14 @@ or applied extension of the core DFT framework defined here.
 * **[`dft-astro-nonlocal-kinematics`](https://github.com/arwells-research/dft-astro-nonlocal-kinematics)**: Verification pipeline testing a DFT-inspired nonlocal kinematic model against SPARC galaxy rotation curves. Uses fixed nonlocal kernels and deterministic holdout gates to assess whether parameter-light geometry can reproduce galactic dynamics without halo fitting. *(tags: rotation curves, nonlocal gravity, SPARC, kinematics)*
 
 ### Quantum Optics & Coherence
-* **[`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion)**: Modeling first-order interference visibility $V(\tau)$ as a statistical phase-coherence observable. *(tags: MZI, visibility, phase noise)*
-* **[`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics)**: Modeling second-order intensity correlations $g^2(\tau)$ and mechanism separation in bunching. *(tags: g2, bunching, statistics)*
-* **[`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)**: Reproducing Hong–Ou–Mandel bunching through deterministic phase diffusion. *(tags: HOM, two-photon interference, diffusion)*
+* **[`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion)**: Modeling first-order interference visibility \(V(\tau)\) as a statistical phase-coherence observable.  
+  *(tags: Mach–Zehnder interferometer, first-order coherence, interference visibility, phase noise, phase diffusion, coherence decay)*
+* **[`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics)**: Modeling second-order intensity correlations \(g^2(\tau)\) and mechanism separation in bunching.
+  *(tags: second-order coherence, g2 correlation, Hanbury Brown–Twiss, photon bunching, intensity fluctuations, optical coherence)*
+* **[`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)**: Reproducing Hong–Ou–Mandel bunching through deterministic phase diffusion.  
+  *(tags: Hong–Ou–Mandel effect, two-photon interference, photon indistinguishability, coincidence suppression, phase noise, quantum optics)*
+* **[`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching)**: Stationary antibunching under continuous drive from DFT-grounded exclusivity (ψ-winding topology), with predictive classical baseline comparisons.
+  *(tags: single-photon antibunching, g2 correlation, Hanbury Brown–Twiss, continuous-wave emission, nonclassical light, emission statistics, classical vs quantum)*
 
 ### Information Theory & Representation (Domain Bridge)
 * **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)**
