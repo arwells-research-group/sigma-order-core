@@ -96,7 +96,7 @@ or applied extension of the core DFT framework defined here.
 ### Atomic & Structural Physics
 * **[`gor-caf`](https://github.com/arwells-research/gor-caf)**: Analyzes NIST First Ionization Energies to verify the $+3/-4$ GOR residuals. *(tags: NIST, periodic table, residuals)*
 * **[`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model)**: Computational verification of the 3.8 Bohr coherence aperture ($L$) and Period 5 decoherence. *(tags: coherence aperture, shell structure, validation)*
-  
+
 ### Nuclear Decay & Lifetime Scaling
 * **[`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics)**: Establishes and validates a universal hazard law for β-decay and electron-capture lifetimes using relativistic phase-space scaling and channel-aware ENSDF log ft values. Coefficients are frozen; deviations isolate nuclear-structure effects via residuals. *(tags: beta decay, half-lives, ENSDF, phase space, residuals)*
 
@@ -116,6 +116,9 @@ or applied extension of the core DFT framework defined here.
 * **[`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching)**: Stationary antibunching under continuous drive from DFT-grounded exclusivity (ψ-winding topology), with predictive classical baseline comparisons.
   *(tags: single-photon antibunching, g2 correlation, Hanbury Brown–Twiss, continuous-wave emission, nonclassical light, emission statistics, classical vs quantum)*
 
+### Dynamical Systems & Neuroscience (Dual-Order Track)
+* **[`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics)**: Minimal, falsifiable probes of **path-dependent (second-order) dynamics**: Pipeline A demonstrates holonomy-like organization without hidden state; Pipeline B1 tests **phase-conditioned divergence under matched prestimulus power** in OpenNeuro ds003061 EEG. *(tags: dynamical systems, cognitive neuroscience methods, holonomy, path dependence, EEG, prestimulus phase, state matching, meta-analysis)*
+     
 ### Information Theory & Representation (Domain Bridge)
 * **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)**
   
