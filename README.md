@@ -153,11 +153,71 @@ or applied extension of the core DFT framework defined here.
 * **[`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)**: Analytic derivation of Bell-type correlations as an emergent feature of long-range joint phase evolution. *(tags: Bell, joint phase, derivation)*
 
 ## 4. Logical Structure of the Core Theory
-* **[01_foundations/](./01_foundations/)**: The Scalar-Motion Axiom, the Unit Datum, and T/S Dual-Frame architecture.
-* **[02_mechanics/](./02_mechanics/)**: Winding sectors, Background Phase Geometry (BPG), and the Coherence Hierarchy.
-* **[03_verifications/](./03_verifications/)**: Detailed proofs of atomic residuals (GOR) and the T-frame logic of NIST data.
-* **[04_spatial_geometry/](./04_spatial_geometry/)**: The 3.8 Bohr Coherence Aperture ($L$) and the "Decoherence Cliff" at Period 5.
-* **[05_synthesis/](./05_synthesis/)**: Unification of constants ($\alpha$, Lamb Shift) and the transition to the Continuum Limit.
+
+The Dual-Frame Theory is written as a **single, internally numbered theoretical development**,  
+but is **modularized across files for clarity and version control**.
+
+Section numbers inside documents (e.g. 2.1, 2.7, etc.) are **the authoritative structure**.  
+File boundaries do *not* indicate conceptual separation.
+
+---
+
+### 4.1 Foundations — Chapter 1
+
+* **[01_foundations/](./01_foundations/)**
+  * **[`scalar_motion.md`](./01_foundations/scalar_motion.md)**  
+    **Chapter 1** — Scalar-Motion Axiom, Unit Datum, and the T/S dual-frame architecture.
+
+This chapter defines the ontological and geometric primitives of DFT.
+
+---
+
+### 4.2 Mechanics — Chapter 2
+
+* **[02_mechanics/](./02_mechanics/)**
+  * **[`winding_sectors.md`](./02_mechanics/winding_sectors.md)**  
+    **Sections 2.1–2.6** — Topological closure, winding sectors, SQUIDs, atomic orbitals, Background Phase Geometry (BPG), and the Coherence Aperture \(L\).
+  * **[`coherence_hierarchy.md`](./02_mechanics/coherence_hierarchy.md)**  
+    **Section 2.7+** — Hierarchy of coherence: first-order visibility, second-order statistics, Bell-CHSH dynamics, and macroscopic boundary coherence.
+
+Together, these files constitute **Chapter 2** of the theory.
+
+---
+
+### 4.3 Verifications — Chapter 3
+
+* **[03_verifications/](./03_verifications/)**
+  * **[`atomic_residuals.md`](./03_verifications/atomic_residuals.md)**  
+    **Chapter 3** — Atomic residual structure (GOR), NIST data logic, and falsification gates.
+
+This chapter establishes empirical sufficiency and validation discipline.
+
+---
+
+### 4.4 Spatial Geometry — Chapter 4
+
+* **[04_spatial_geometry/](./04_spatial_geometry/)**
+  * **[`kernel_physicality.md`](./04_spatial_geometry/kernel_physicality.md)**  
+    **Chapter 4** — Physical necessity of the 3.8 Bohr coherence aperture and the Period-5 decoherence cliff.
+
+---
+
+### 4.5 Synthesis — Chapter 5
+
+* **[05_synthesis/](./05_synthesis/)**
+  * **[`spectral_shifts.md`](./05_synthesis/spectral_shifts.md)**  
+    **Chapter 5** — Unification of constants (\(\alpha\), Lamb shift) and approach to the continuum limit.
+
+---
+
+### 4.6 Recommended reading order
+
+1. `01_foundations/scalar_motion.md` (Chapter 1)  
+2. `02_mechanics/winding_sectors.md` (Sections 2.1–2.6)  
+3. `02_mechanics/coherence_hierarchy.md` (Section 2.7+)  
+4. `03_verifications/atomic_residuals.md` (Chapter 3)  
+5. `04_spatial_geometry/kernel_physicality.md` (Chapter 4)  
+6. `05_synthesis/spectral_shifts.md` (Chapter 5)
 
 ## 5. Verification Standards
 For details on the scientific standards and reproducibility protocols used across these projects, see **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
