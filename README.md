@@ -9,7 +9,7 @@ This repository serves as the canonical, citable theoretical foundation for
 **Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic quantum phenomena to microscopic atomic structures through the mechanics of **T-frame winding sectors**. This repository is a conceptual and organizational index for the Dual-Frame research ecosystem.
 
 ## 1. Overview
-Dual-Frame Theory (DFT) departs from background-dependent physics by postulating that space and time are the reciprocal aspects of a universal scalar motion. By projecting this motion through two distinct frames—the **Temporal/Trajectory (T)** frame and the **Spatial/Standard (S)** frame—we derive the laws of physics as consequences of topological coherence and background curvature.
+Dual-Frame Theory (DFT) departs from background-dependent physics by postulating that space and time are the reciprocal aspects of a universal scalar motion. By projecting this motion through two distinct frames—the **Temporal/Trajectory (T)** frame and the **Spatial/Standard (S)** frame—we derive the laws of physics as consequences of topological coherence and background curvature. In addition to geometric constraints on motion, DFT includes a formal theory of organizational order, distinguishing state-based dynamics from trajectory-dependent structure via second-order constraint geometry (Σ₂).
 
 ### 1.1 What Dual-Frame Theory Is — and Is Not
 
@@ -63,6 +63,24 @@ The theory predicts a natural limit to phase-locking at approximately $3.8 \, a_
 
 While DFT is primarily a geometric framework, several associated projects test whether parameter-light, structure-separating laws emerge in empirical domains governed by lifetime, coherence, or stability constraints.
 
+### 2.4 Second-Order Organization (Σ₂ Constraint Geometry)
+
+DFT distinguishes between state-based dynamics and **trajectory-dependent organization**.
+Certain systems cannot be fully described by instantaneous state alone; their future
+evolution depends on admissible histories, ordering of transformations, and embodiment-dependent constraints.
+
+This organizational layer is formalized as **second-order constraint space (Σ₂)**:
+a geometry over admissible trajectories rather than over states.
+
+Σ₂ provides:
+- an operational distinction between first-, proto-second-, and second-order systems,
+- diagnostics for order relevance (noncommutativity, holonomy),
+- a framework for trajectory-level organization without stored state or hidden variables.
+
+A formal axiomatic treatment is provided in:
+**[`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework)**  
+Zenodo DOI: https://doi.org/10.5281/zenodo.18124930
+  
 ## Status of the Framework
 
 Dual-Frame Theory (DFT) is presented here as a **sufficiency-oriented geometric framework**, not currently presented as a fully constructive microscopic dynamics.
@@ -116,6 +134,14 @@ or applied extension of the core DFT framework defined here.
 * **[`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching)**: Stationary antibunching under continuous drive from DFT-grounded exclusivity (ψ-winding topology), with predictive classical baseline comparisons.
   *(tags: single-photon antibunching, g2 correlation, Hanbury Brown–Twiss, continuous-wave emission, nonclassical light, emission statistics, classical vs quantum)*
 
+### Organizational Theory & Second-Order Dynamics
+* **[`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework)**:
+  Formal axiomatic framework defining second-order organization as constraint geometry
+  over admissible trajectories (Σ₂). Establishes embodiment grounding, proto- vs true
+  second-order distinctions, and operational diagnostics (noncommutativity, holonomy).
+  Zenodo DOI: https://doi.org/10.5281/zenodo.18124930  
+  *(tags: second-order organization, trajectory dependence, constraint geometry, dynamical systems methods)*
+  
 ### Dynamical Systems & Neuroscience (Dual-Order Track)
 * **[`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics)**: Minimal, falsifiable probes of path-dependent (second-order) dynamics: Pipeline A demonstrates holonomy-like organization without hidden state; Pipeline B1 tests phase-conditioned divergence under matched prestimulus power in OpenNeuro ds003061 EEG. *(tags: dynamical systems, cognitive neuroscience methods, holonomy, path dependence, EEG, prestimulus phase, state matching, meta-analysis)*
      
