@@ -129,8 +129,10 @@ or applied extension of the core DFT framework defined here.
   *(tags: Mach–Zehnder interferometer, first-order coherence, interference visibility, phase noise, phase diffusion, coherence decay)*
 * **[`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics)**: Modeling second-order intensity correlations \(g^2(\tau)\) and mechanism separation in bunching.
   *(tags: second-order coherence, g2 correlation, Hanbury Brown–Twiss, photon bunching, intensity fluctuations, optical coherence)*
-* **[`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)**: Reproducing Hong–Ou–Mandel bunching through deterministic phase diffusion.  
+* **[`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)**: Reproducing Hong–Ou–Mandel bunching through deterministic phase diffusion (constructive, self-generated; not an external envelope benchmark).    
   *(tags: Hong–Ou–Mandel effect, two-photon interference, photon indistinguishability, coincidence suppression, phase noise, quantum optics)*
+* **[`hom-topological-phase-history`](https://github.com/arwells-research/hom-topological-phase-history)**: **Closed (Resolved Boundary)** — locked empirical benchmark comparing phase-history (sector-survival) vs standard overlap modeling on published HOM coincidence-envelope datasets (topological + non-topological regimes).  
+  *(tags: HOM envelope benchmark, external data, locked protocol, boundary test, model comparison)*  
 * **[`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching)**: Stationary antibunching under continuous drive from DFT-grounded exclusivity (ψ-winding topology), with predictive classical baseline comparisons.
   *(tags: single-photon antibunching, g2 correlation, Hanbury Brown–Twiss, continuous-wave emission, nonclassical light, emission statistics, classical vs quantum)*
 
