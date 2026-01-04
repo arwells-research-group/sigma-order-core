@@ -7,6 +7,28 @@ A primary claim of DFT is that physical observables are geometric consequences o
 * **Requirement:** Phenomenon must be explained via integer winding numbers ($n$), fixed geometric constants (e.g., $\alpha$), or universal spatial limits (e.g., $L \approx 3.8 \, a_0$).
 * **Verification:** Any model that requires statistical weighting or "tunable" parameters to match experimental data must be explicitly labeled as a phenomenological approximation, not a first-principles derivation.
 
+### 1.1 Structural Constraint Results (Non-Constructive)
+
+Some results within the Dual-Frame research program take the form of **structural
+constraint (no-go) theorems** rather than constructive or predictive models.
+
+Such results do not introduce new empirical claims, parameters, or mechanisms.
+Instead, they restrict the **space of admissible explanations under those assumptions** by proving that
+certain phenomena cannot arise under specified structural assumptions.
+
+Examples include:
+- impossibility results,
+- classification theorems,
+- forced-disclosure diagnostics identifying where asymmetry or structure must enter.
+
+These results are **falsifiable in principle**, but not through parameter fitting
+or numerical prediction. Falsification requires exhibiting a counterexample
+that satisfies the stated structural assumptions while violating the constrained
+outcome.
+
+Constructive models developed within DFT must remain consistent with all such
+structural constraints.
+
 ## 2. Mechanism Separation
 DFT emphasizes the separation of physical causes. A verification is only valid if it can distinguish between different frame-specific effects.
 * **T-Frame Effects:** Phase-driven phenomena (e.g., interference visibility, bunching, winding sectors).
