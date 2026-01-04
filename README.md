@@ -154,6 +154,9 @@ or applied extension of the core DFT framework defined here.
 * **[`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase)**: Modeling the degradation of Bell-CHSH correlations under detection jitter and phase-noise. *(tags: CHSH, noise, correlations)*
 * **[`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)**: Analytic derivation of Bell-type correlations as an emergent feature of long-range joint phase evolution. *(tags: Bell, joint phase, derivation)*
 
+### Foundations & Arrow Diagnostics
+* **[`projection-induced-arrows`](https://github.com/arwells-research/projection-induced-arrows)**: Constraint/no-go framework classifying arrow-like directedness by the locus of asymmetry (dynamics / projection / boundary selection), with an operational boundary-reflection test and a worked diagnostic case study (Boltzmann H-theorem). *(tags: arrow of time, no-go theorem, projection, conditioning boundary, diagnostic framework)*
+
 ## 4. Logical Structure of the Core Theory
 
 The Dual-Frame Theory is written as a **single, internally numbered theoretical development**,  
