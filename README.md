@@ -136,6 +136,11 @@ or applied extension of the core DFT framework defined here.
 * **[`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching)**: Stationary antibunching under continuous drive from DFT-grounded exclusivity (ψ-winding topology), with predictive classical baseline comparisons.
   *(tags: single-photon antibunching, g2 correlation, Hanbury Brown–Twiss, continuous-wave emission, nonclassical light, emission statistics, classical vs quantum)*
 
+### Foundations & Second-Order Constraint Geometry (Σ₂)
+* **[`second-order-constraint-geometry`](https://github.com/arwells-research/second-order-constraint-geometry)**:
+  Foundations paper introducing **Second-Order Constraint Geometry (Σ₂)** as a diagnostic layer for trajectory-dependent admissibility in reduced operational frames, including a fully worked two-qubit Hamiltonian example and falsifiable experimental protocol.
+  *(tags: quantum foundations, admissible histories, state insufficiency, non-Markovianity, operational frames, symmetry)*
+
 ### Organizational Theory & Second-Order Dynamics
 * **[`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework)**:
   Formal axiomatic framework defining second-order organization as constraint geometry
