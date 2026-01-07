@@ -34,13 +34,13 @@ DFT is therefore:
 
 DFT is **not**:
 
-- a general-purpose solver for quantum systems,
-- a replacement for established computational frameworks (QFT, Lifshitz theory),
-- or a claim that standard physics is “wrong.”
+- defined by a commitment to any single predictive formalism or computational representation,
+- confined to a particular physical domain or scale,
+- or a claim that established models fail where their reductions remain structurally sufficient.
 
-Where conventional models are empirically successful, DFT must reproduce their 
-validated predictions in the appropriate limits, while potentially offering 
-deeper explanatory structure or reduced complexity.
+In regimes where existing reductions remain adequate, DFT reproduces their validated predictions.  
+In regimes where reduction discards structure required for coherence or continuation, DFT may 
+require additional representational or computational structure.
 
 A concise statement of falsifiability and verification standards is provided in
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
