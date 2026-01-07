@@ -6,10 +6,10 @@ quantization, coherence limits, and correlation structure across quantum,
 atomic, and macroscopic systems — with explicit falsifiability.
 
 This repository serves as the canonical, citable theoretical foundation for
-**Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic quantum phenomena to microscopic atomic structures through the mechanics of **T-frame winding sectors**. This repository is a conceptual and organizational index for the Dual-Frame research ecosystem.
+**Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion. DFT provides a unified geometric framework that links macroscopic and microscopic physical phenomena through the mechanics of **T-frame winding sectors**. This repository is a conceptual and organizational index for the Dual-Frame research ecosystem.
 
 ## 1. Overview
-Dual-Frame Theory (DFT) departs from background-dependent physics by postulating that space and time are the reciprocal aspects of a universal scalar motion. By projecting this motion through two distinct frames—the **Temporal/Trajectory (T)** frame and the **Spatial/Standard (S)** frame—we derive the laws of physics as consequences of topological coherence and background curvature. In addition to geometric constraints on motion, DFT includes a formal theory of organizational order, distinguishing state-based dynamics from trajectory-dependent structure via second-order constraint geometry (Σ₂).
+Dual-Frame Theory (DFT) departs from background-dependent physics by postulating that space and time are the reciprocal aspects of a universal scalar motion. By projecting this motion through two distinct frames—the **Temporal/Trajectory (T)** frame and the **Spatial/Standard (S)** frame—we derive key structural features of physical law as consequences of topological coherence and Background Phase Geometry (BPG). In addition to geometric constraints on motion, DFT includes a formal theory of organizational order, distinguishing state-based dynamics from trajectory-dependent structure via second-order constraint geometry (Σ₂).
 
 ### 1.1 What Dual-Frame Theory Is — and Is Not
 
@@ -24,9 +24,9 @@ Temporal (T) and Spatial (S) frames.
 
 DFT is therefore:
 
-- **Explanatory, not phenomenological** — it seeks to account for observed
+- **Explanatory, not purely phenomenological** — it seeks to account for observed
   structure without introducing tunable parameters.
-- **Reductive, not expansive** — it aims to derive familiar quantum and
+- **Derivational, not expansive** — it aims to derive familiar quantum and
   statistical behavior from geometric necessity rather than add new degrees of
   freedom.
 - **Test-bound, not interpretive** — its claims are explicitly constrained by
@@ -45,6 +45,48 @@ deeper explanatory structure or reduced complexity.
 A concise statement of falsifiability and verification standards is provided in
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
 
+### 1.2 Conceptual Orientation: The Reduction–Reciprocity Stack
+
+A recurring theme across DFT projects is that many limits in conventional theory
+arise not from “missing dynamics,” but from **reductions that break reciprocity**
+between spatial and temporal structure at the level of description.
+
+The following stack is the intended mental model for how DFT, and Σ₂ in particular,
+fit together:
+
+1. **Intrinsic structure (motion-first; reciprocal space/time):**  
+   Physical phenomena possess intrinsic structure and dynamics. In the DFT kernel,
+   space and time are reciprocally related aspects of scalar motion and are not
+   fundamentally separable.
+
+2. **Conventional reduction (modeling practice):**  
+   To obtain tractable models, structure is reduced. Typically, **spatial structure**
+   is retained explicitly (states, configurations, fields), while **reciprocal temporal
+   structure** is collapsed into parameterized evolution and state-based sufficiency criteria.
+
+3. **Asymmetry introduced by reduction:**  
+   This reduction introduces an asymmetry in the description (spatial structure kept,
+   temporal structure collapsed), even when the underlying admissible structure remains
+   reciprocal.
+
+4. **DFT diagnosis (limits-first):**  
+   DFT examines what intrinsic structure and dynamics were discarded by reduction and
+   identifies when those losses remain acceptable versus when they become limiting across
+   scale, timescale, coupling, or order of organization.
+
+5. **Σ₂ (structural adequacy condition):**  
+   Σ₂ designates the condition under which a reduced, algebraically closed description
+   ceases to remain sufficient for maintaining a coherent structural account because
+   discarded structure becomes necessary for understanding. It often manifests as
+   history or ordering dependence, not because time is fundamental, but because
+   reciprocal structure was collapsed asymmetrically.
+
+This stack is referenced throughout the ecosystem wherever Σ₂, “unfaithful cuts,”
+or admissibility-based diagnostics arise.
+
+Throughout this repository, references to “regimes” denote contextual conditions 
+(scale, timescale, coupling, or order of organization), not distinct domains of physics.
+
 ## 2. Key Theoretical Pillars
 
 These pillars define geometric constraints shared across all DFT applications. Individual systems differ in dynamics, but not in the admissible phase-space structure imposed by the dual-frame projection.
@@ -59,14 +101,14 @@ DFT reinterprets "quantum" coherence as the stability of the T-frame phase-lock.
 * **Long-Range:** Joint phase dynamics and the emergence of Bell correlations.
 
 ### 2.3 The Coherence Aperture ($L$)
-The theory predicts a natural limit to phase-locking at approximately $3.8 \, a_0$. This aperture defines the boundary where the T-frame manifold transitions from a locked resonance to a decoherent state, providing the geometric rationale for the structure of the Periodic Table.
+The theory predicts a natural limit to phase-locking at approximately $3.8 \, a_0$. This aperture defines the boundary where the T-frame manifold transitions from a locked resonance to a decoherent state, providing the geometric rationale for key features of the Periodic Table.
 
-While DFT is primarily a geometric framework, several associated projects test whether parameter-light, structure-separating laws emerge in empirical domains governed by lifetime, coherence, or stability constraints.
+While DFT is primarily a geometric framework, several associated projects test whether parameter-light, structure-separating laws emerge in empirical contexts governed by lifetime, coherence, or stability constraints.
 
 ### 2.4 Second-Order Organization (Σ₂ Constraint Geometry)
 
 DFT distinguishes between state-based dynamics and **trajectory-dependent organization**.
-Certain systems cannot be fully described by instantaneous state alone; their future
+Certain physical descriptions cannot be fully characterized by instantaneous state alone; their future
 evolution depends on admissible histories, ordering of transformations, and embodiment-dependent constraints.
 
 This organizational layer is formalized as **second-order constraint space (Σ₂)**:
@@ -83,7 +125,7 @@ Zenodo DOI: https://doi.org/10.5281/zenodo.18124930
   
 ## Status of the Framework
 
-Dual-Frame Theory (DFT) is presented here as a **sufficiency-oriented geometric framework**, not currently presented as a fully constructive microscopic dynamics.
+Dual-Frame Theory (DFT) is presented here as a **sufficiency-oriented geometric framework**, not currently presented as a fully constructive microscopic dynamics framework.
 
 Specifically:
 
@@ -157,8 +199,8 @@ or applied extension of the core DFT framework defined here.
 ### Dynamical Systems & Neuroscience (Dual-Order Track)
 * **[`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics)**: Minimal, falsifiable probes of path-dependent (second-order) dynamics: Pipeline A demonstrates holonomy-like organization without hidden state; Pipeline B1 tests phase-conditioned divergence under matched prestimulus power in OpenNeuro ds003061 EEG. *(tags: dynamical systems, cognitive neuroscience methods, holonomy, path dependence, EEG, prestimulus phase, state matching, meta-analysis)*
      
-### Information Theory & Representation (Domain Bridge)
-* **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)**
+### Information Theory & Representation (Cross-Regime Bridge)
+* **[`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory)**: Published preprint developing the information-theoretic formulation of DFT for symbolic–harmonic representation trade-offs (compression complementarity, dual-frame entropy/complexity, dual-frame rate–distortion). Zenodo v3 DOI: https://doi.org/10.5281/zenodo.18048533 *(tags: information theory, compression, representation learning, MDL, IB)*
   
 ### Foundations & Bell Tests
 * **[`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase)**: Modeling the degradation of Bell-CHSH correlations under detection jitter and phase-noise. *(tags: CHSH, noise, correlations)*
