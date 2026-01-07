@@ -141,6 +141,11 @@ or applied extension of the core DFT framework defined here.
   Foundations paper introducing **Second-Order Constraint Geometry (Σ₂)** as a diagnostic layer for trajectory-dependent admissibility in reduced operational frames, including a fully worked two-qubit Hamiltonian example and falsifiable experimental protocol.
   *(tags: quantum foundations, admissible histories, state insufficiency, non-Markovianity, operational frames, symmetry)*
 
+* **[`unfaithful-cut-foundations`](https://github.com/arwells-research/unfaithful-cut-foundations)**:
+  Foundations paper introducing the **unfaithful cut** as a structural diagnostic for when reduced, algebraically closed descriptions (states, channels, or static multi-time process tensors; Σ₁) fail to support counterfactual reasoning under interventions, and characterizing the minimal trajectory-level admissibility structure (Σ₂) required for faithfulness.
+  Zenodo: https://doi.org/10.5281/zenodo.18168369 (all versions), https://doi.org/10.5281/zenodo.18168370 (v1)
+  *(tags: reduced descriptions, interventions, counterfactuals, process tensors, non-Markovianity, contextuality, quantum control)*
+ 
 ### Organizational Theory & Second-Order Dynamics
 * **[`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework)**:
   Formal axiomatic framework defining second-order organization as constraint geometry
