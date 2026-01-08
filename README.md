@@ -187,7 +187,12 @@ or applied extension of the core DFT framework defined here.
   Foundations paper introducing the **unfaithful cut** as a structural diagnostic for when reduced, algebraically closed descriptions (states, channels, or static multi-time process tensors; Σ₁) fail to support counterfactual reasoning under interventions, and characterizing the minimal trajectory-level admissibility structure (Σ₂) required for faithfulness.
   Zenodo: https://doi.org/10.5281/zenodo.18168369 (all versions), https://doi.org/10.5281/zenodo.18168370 (v1)
   *(tags: reduced descriptions, interventions, counterfactuals, process tensors, non-Markovianity, contextuality, quantum control)*
- 
+
+* **[`unfaithful-cut-ai`](https://github.com/arwells-research/unfaithful-cut-ai)**:
+  Foundations/ML paper defining the **unfaithful cut** as an epistemic limit on observational evaluation: some intervention failures are **undetectable from observation alone**, even with perfect predictive accuracy, when the model interface collapses intervention-relevant histories.
+  Zenodo: https://doi.org/10.5281/zenodo.18181966 (all versions), https://doi.org/10.5281/zenodo.18181967 (v1)
+  *(tags: observational vs interventional, representational sufficiency, state aliasing, offline RL, sim-to-real, causal insufficiency, diagnostics)*
+  
 ### Organizational Theory & Second-Order Dynamics
 * **[`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework)**:
   Formal axiomatic framework defining second-order organization as constraint geometry
