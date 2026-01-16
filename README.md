@@ -329,6 +329,12 @@ refer to `dft-radiation` classifications.
 |-----------|------------|-------------|--------|-----|
 | [`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics) | Trajectory holonomy | EEG / OpenNeuro | Active | — |
 
+## 6.11 Developmental Biology & Constraint Audits
+
+| Repository | Depends On | Test Domain | Status | DOI |
+|-----------|------------|-------------|--------|-----|
+| [`lineage-constraint-audit`](https://github.com/arwells-research/lineage-constraint-audit) | Constraint-first audit logic (Σ₂-adjacent) | Lineage detectability in scRNA-seq (C. elegans embryogenesis) | Complete | — |
+
 ---
 
 ## 7. Verification and Falsifiability
