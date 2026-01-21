@@ -3,6 +3,13 @@
 
 ---
 
+> **Repository status:** Early-stage research program maintained by a non-dedicated researcher. 
+> Documentation reflects conceptual architecture and ongoing work. Not all listed repositories 
+> are public yet. Completeness claims (e.g., `dft-radiation` C1–C5) are falsifiable but 
+> under active stress-testing.
+
+---
+
 ## 1. Purpose and Scope
 
 **Purpose:** Provide a parameter-light, geometry-first framework that explains
@@ -15,6 +22,11 @@ This repository serves as the canonical, citable theoretical foundation for
 This repository is a **conceptual and organizational index** for the Dual-Frame
 research ecosystem. All empirical claims are constrained by explicit verification
 and falsification standards defined in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
+
+> **TL;DR**
+> Dual-Frame Theory is a geometry-first framework that explains quantization,
+> coherence limits, and correlation structure using topological constraints on motion.
+> It does not replace QM or GR, but constrains where and how effective models apply.
 
 ---
 
@@ -33,13 +45,30 @@ DFT is therefore:
 
 - **Explanatory, not phenomenological** — it accounts for observed structure without tunable parameters.
 - **Derivational, not expansive** — it derives familiar behavior from geometric necessity.
-- **Test-bound, not interpretive** — claims are constrained by falsifiable public benchmarks.
+- **Falsifiable, not speculative** — claims are constrained by public benchmarks with explicit failure criteria.
 
 DFT is **not**:
 
 - a commitment to a single predictive formalism,
 - confined to a particular physical scale,
 - or a claim that established models fail where their reductions remain sufficient.
+
+### Where DFT Reproduces vs. Competes
+
+**DFT reproduces standard QM/GR in validated regimes** (survival constraint):
+- Standard coherence envelopes (Gaussian phase diffusion)
+- Uncertainty relations (T/S projection complementarity)
+- Local weak-field gravitational effects
+- Standard spectral relationships (stationary Fourier)
+
+**DFT competes by predicting new admissibility boundaries:**
+- Refusal where standard practice continues (winding hops, aperture violations)
+- Attribution constraints without free parameters (rotation curves, atomic structure)
+- Cross-domain invariants (same L, same winding rules across scales)
+
+**Key claim:** DFT is **interpretive** where QM/GR are maximally constrained, 
+and **competing** at boundaries where standard frameworks use effective models 
+or free parameters.
 
 A concise statement of falsifiability and verification standards is provided in  
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
@@ -54,7 +83,12 @@ A concise statement of falsifiability and verification standards is provided in
 - **Temporal / Spatial (T/S) frame duality** — complementary projections of scalar motion
 - **Winding sectors** — topological admissibility conditions on T-frame evolution
 - **Background Phase Geometry (BPG)** — global constraints on phase coherence
-- **Second-order constraint geometry (Σ₂)** — trajectory-dependent organization
+- **Second-order constraint geometry (Σ₂)** — trajectory-dependent organization  
+  *(constraints on whether constraint satisfaction itself remains stable under continuation
+  or intervention; governs when local constraints remain valid under re-projection)*  
+  *(Note: Σ₂ governs when local constraints remain stable under continuation, intervention, 
+  and re-projection. Prototypes exist in `dft-radiation` S-0024/S-0025; formal mechanization 
+  in progress.)*
 
 ### 3.2 Relationship Between Core Theory and Domain Phenomenology
 
@@ -134,46 +168,31 @@ are for organization only.
 
 ### 4.1 Domain Phenomenology Modules
 
-Domain phenomenology modules apply core DFT constraints to specific empirical domains.
-
-**Admission criteria** — A candidate module must:
-
-1. **Identify irreducible constraint classes**
-   - Each class corresponds to a distinct way core primitives manifest as constraints
-   - Classes must be mutually exclusive and collectively exhaustive for the domain
-
-2. **Provide operational classification tests**
-   - Mechanical rules for assigning phenomena to constraint classes
-   - Tests must be algorithmically applicable (no subjective judgment)
-
-3. **Establish coverage closure conditions**
-   - Explicit criteria for when a constraint class is fully specified
-   - Physical boundaries beyond which further refinement is inadmissible
-
-4. **Maintain public audit artifacts**
-   - **Binding Atlas:** Complete mapping of phenomena to constraint signatures
-   - **Challenge Log:** Classification stress-tests, boundary cases, near-misses
-
-5. **Declare explicit falsification conditions**
-   - What would constitute a new constraint class
-   - Versioned tracking of any constraint-set modifications
+Domain phenomenology modules apply core DFT constraints to specific empirical domains 
+by identifying **irreducible constraint classes** and providing **operational classification tests**.
 
 **Established modules:**
 
-| Module | Domain | Constraint Classes | Status |
-|--------|--------|-------------------|--------|
-| [`dft-radiation`](https://github.com/arwells-research/dft-radiation) | Radiation phenomenology | C1–C5 (phase evolution) | v1.0 RC |
+| Module | Constraint Classes | Status | DOI |
+|--------|-------------------|--------|-----|
+| ✅ [`dft-radiation`](https://github.com/arwells-research/dft-radiation) | C1–C5 (phase evolution) | v1.0 RC | — |
 
 **Candidate modules (scoping stage):**
 
-| Module | Domain | Scope | Status |
-|--------|--------|-------|--------|
-| `dft-magnetism` | Magnetic field structure | Constraint classes under identification | Candidate |
-| `dft-gravitation` | Gravitational phenomena | Constraint classes under identification | Candidate |
+| Module | Domain | Status |
+|--------|--------|--------|
+| 🔒 `dft-magnetism` | Magnetic field structure | Constraint classes under identification |
+| 🔒 `dft-gravitation` | Gravitational phenomena | Constraint classes under identification |
+
+**Status legend:**
+- ✅ Public repository, constraint structure complete
+- 🔒 Scoping stage, not yet public
 
 **Note:** Candidate modules are **not commitments or roadmaps**. They indicate
 domains where constraint-class coverage appears tractable, pending formal scoping
-and verification against module admission criteria.
+and verification against module admission criteria. Admission requires: irreducible 
+constraint classes, operational tests, binding atlas, challenge log, and explicit 
+falsification conditions.
 
 ### 4.2 Empirical Test Repositories
 
@@ -195,6 +214,8 @@ These repositories extend diagnostic reach without altering the core theory.
 ---
 
 ## 5. Status of the Framework
+
+> **Scope note:** No claims of technological advantage or engineering readiness are implied.
 
 ### 5.1 Established and Verified
 
@@ -248,92 +269,110 @@ of the core DFT framework.
 
 ### 6.1 Atomic and Structural Physics
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`gor-caf`](https://github.com/arwells-research/gor-caf) | Winding sectors, coherence aperture | Atomic ionization energies (NIST) | Complete | 10.5281/zenodo.18027076 |
-| [`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model) | Coherence aperture L | Periodic table structure | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+|-----------|------------------------|---------|--------|-----|
+| ✅ [`gor-caf`](https://github.com/arwells-research/gor-caf) | Winding sectors, coherence aperture | NIST ionization energies | Validated | 10.5281/zenodo.18027076 |
+| ✅ [`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model) | Coherence aperture L | Periodic table structure | Validated | — |
 
 ### 6.2 Nuclear Decay and Lifetime Scaling
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics) | Phase-space scaling, Σ₂ diagnostics | ENSDF β-decay lifetimes | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+|-----------|------------------------|---------|--------|-----|
+| ✅ [`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics) | Phase-space scaling, Σ₂ diagnostics | ENSDF β-decay lifetimes | Validated | — |
 
 ### 6.3 Macroscopic Vacuum and MEMS
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`casimir-mems-geometry`](https://github.com/arwells-research/casimir-mems-geometry) | Background Phase Geometry | Casimir force regimes (MEMS) | In development | — |
+| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+|-----------|------------------------|---------|--------|-----|
+| 🔄 [`casimir-mems-geometry`](https://github.com/arwells-research/casimir-mems-geometry) | Background Phase Geometry | Casimir force regimes (MEMS) | In development | — |
 
 ### 6.4 Astrophysical Kinematics and Large-Scale Structure
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`dft-astro-nonlocal-kinematics`](https://github.com/arwells-research/dft-astro-nonlocal-kinematics) | Nonlocal kinematic geometry | SPARC rotation curves | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+|-----------|------------------------|---------|--------|-----|
+| ✅ [`dft-astro-nonlocal-kinematics`](https://github.com/arwells-research/dft-astro-nonlocal-kinematics) | Nonlocal kinematic geometry | SPARC rotation curves | Validated | — |
 
 ### 6.5 Radiation and Coherence Phenomenology
 
 **Domain module:**
 
-**Note:** Module tables report constraint coverage rather than dependency structure.
 | Repository | Type | Constraint Classes | Status | DOI |
 |-----------|------|-------------------|--------|-----|
-| **[`dft-radiation`](https://github.com/arwells-research/dft-radiation)** | Module | C1–C5 (phase evolution) | v1.0 RC | — |
+| ✅ [`dft-radiation`](https://github.com/arwells-research/dft-radiation) | Module | C1–C5 (phase evolution) | v1.0 RC | — |
+
+**Note:** Module tables report constraint coverage rather than dependency structure.
 
 **Empirical test repositories:**
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion) | Phase coherence (C1, C2) | First-order interference | Complete | — |
-| [`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics) | Coherence hierarchy (C2) | Second-order correlations | Complete | — |
-| [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion) | Joint phase dynamics (C2, C5) | HOM interference | Complete | — |
-| [`hom-topological-phase-history`](https://github.com/arwells-research/hom-topological-phase-history) | Winding sector survival (C2) | HOM benchmarks | Closed | — |
-| [`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching) | Exclusivity topology (C2) | Antibunching | Complete | — |
+| Repository | Tests (Constraint Signatures) | Dataset/Domain | Status | DOI |
+|-----------|-------------------------------|----------------|--------|-----|
+| ✅ [`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion) | Phase coherence (C1, C2) | First-order interference | Validated | — |
+| ✅ [`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics) | Coherence hierarchy (C2) | Second-order correlations | Validated | — |
+| ✅ [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion) | Joint phase dynamics (C2, C5) | HOM interference | Validated | — |
+| ⚠️ [`hom-topological-phase-history`](https://github.com/arwells-research/hom-topological-phase-history) | Winding sector survival (C2) | HOM benchmarks | Deprecated | — |
+| ✅ [`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching) | Exclusivity topology (C2) | Antibunching | Validated | — |
 
 **Note:** `dft-radiation` provides the constraint-classification framework (C1–C5).
 Test repositories validate specific constraint signatures or combinations identified
-in the module's Binding Atlas. Constraint class labels (C1, C2, etc.) in "Depends On"
+in the module's Binding Atlas. Constraint class labels (C1, C2, etc.) in test descriptions
 refer to `dft-radiation` classifications.
 
 ### 6.6 Foundations and Bell-Type Correlations
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) | Joint phase dynamics | Bell-CHSH | Complete | — |
-| [`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics) | Long-range phase evolution | Bell correlations | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+|-----------|------------------------|----------------|--------|-----|
+| ✅ [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) | Joint phase dynamics | Bell-CHSH | Validated | — |
+| ✅ [`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics) | Long-range phase evolution | Bell correlations | Validated | — |
 
 ### 6.7 Second-Order Organization and Dynamics
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`second-order-constraint-geometry`](https://github.com/arwells-research/second-order-constraint-geometry) | Σ₂ axioms | Two-qubit Hamiltonians | Complete | 10.5281/zenodo.18124930 |
-| [`unfaithful-cut-foundations`](https://github.com/arwells-research/unfaithful-cut-foundations) | Σ₂ diagnostics | Intervention faithfulness | Complete | 10.5281/zenodo.18168369 |
-| [`unfaithful-cut-ai`](https://github.com/arwells-research/unfaithful-cut-ai) | Σ₂ epistemic limits | ML / RL evaluation | Complete | 10.5281/zenodo.18181966 |
-| [`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework) | Σ₂ formalism | Organizational dynamics | Complete | 10.5281/zenodo.18124930 |
+| Repository | Tests (Σ₂ Class) | Dataset/Domain | Status | DOI |
+|-----------|------------------|----------------|--------|-----|
+| ✅ [`second-order-constraint-geometry`](https://github.com/arwells-research/second-order-constraint-geometry) | Σ₂ axioms | Two-qubit Hamiltonians | Validated | 10.5281/zenodo.18124930 |
+| ✅ [`unfaithful-cut-foundations`](https://github.com/arwells-research/unfaithful-cut-foundations) | Σ₂ diagnostics (intervention) | Intervention faithfulness | Validated | 10.5281/zenodo.18168369 |
+| ✅ [`unfaithful-cut-ai`](https://github.com/arwells-research/unfaithful-cut-ai) | Σ₂ epistemic limits | ML/RL evaluation | Validated | 10.5281/zenodo.18181966 |
+| ✅ [`dft-second-order-framework`](https://github.com/arwells-research/dft-second-order-framework) | Σ₂ formalism | Organizational dynamics | Validated | 10.5281/zenodo.18124930 |
+
+**Practitioner tools:**  
+Σ₂ constraint logic is also implemented in domain-agnostic practitioner tools:
+
+- [`intervention-faithfulness`](https://github.com/arwells-research/intervention-faithfulness) (Σ₂-I diagnostic for experimental/simulation data)
+  - Install: `pip install intervention-faithfulness`
+  - Use case: Certify model validity under protocol changes
+  - Does not require DFT knowledge; implements same admissibility logic
+
+These tools serve as **independent validation surfaces** for Σ₂ constraints and
+provide **adoption pathways** for practitioners who encounter DFT via applied work.
 
 ### 6.8 Information Theory and Representation
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Complete | 10.5281/zenodo.18048533 |
+| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+|-----------|------------------------|----------------|--------|-----|
+| ✅ [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Validated | 10.5281/zenodo.18048533 |
 
 ### 6.9 Arrow Diagnostics and Projection Asymmetry
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`projection-induced-arrows`](https://github.com/arwells-research/projection-induced-arrows) | Projection asymmetry | Arrow diagnostics | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+|-----------|------------------------|----------------|--------|-----|
+| ✅ [`projection-induced-arrows`](https://github.com/arwells-research/projection-induced-arrows) | Projection asymmetry | Arrow diagnostics | Validated | — |
 
 ### 6.10 Neuroscience and Dual-Order Dynamics
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics) | Trajectory holonomy | EEG / OpenNeuro | Active | — |
+| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+|-----------|------------------------|----------------|--------|-----|
+| 🔄 [`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics) | Trajectory holonomy | EEG/OpenNeuro | Active | — |
 
-## 6.11 Developmental Biology & Constraint Audits
+### 6.11 Developmental Biology & Constraint Audits
 
-| Repository | Depends On | Test Domain | Status | DOI |
-|-----------|------------|-------------|--------|-----|
-| [`lineage-constraint-audit`](https://github.com/arwells-research/lineage-constraint-audit) | Constraint-first audit logic (Σ₂-adjacent) | Lineage detectability in scRNA-seq (C. elegans embryogenesis) | Complete | — |
+| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+|-----------|------------------------|----------------|--------|-----|
+| ✅ [`lineage-constraint-audit`](https://github.com/arwells-research/lineage-constraint-audit) | Constraint-first audit logic (Σ₂-adjacent) | Lineage detectability in scRNA-seq (C. elegans) | Validated | — |
+
+**Status legend:**
+- ✅ Public repository, validation complete or validated
+- 🔄 Public repository, active development
+- 🔒 Scoping stage, not yet public
+- ⚠️ Deprecated or superseded
 
 ---
 
@@ -353,7 +392,9 @@ explicit verification and falsification standards.
 - **Explicit falsification gates:** Each domain module and test repository declares
   what would constitute failure
   
-- **Challenge-tolerant stance:** Completeness claims are falsifiable and audit-facing; challenges may be logged and addressed as capacity allows
+- **Challenge protocol:** Completeness claims are falsifiable and audit-facing. 
+  Challenges are logged publicly in module Challenge Logs within 30 days. Resolution 
+  (acceptance → versioned update, rejection → documented rationale) tracked transparently.
 
 **Completeness falsification (domain modules):**
 
@@ -381,3 +422,6 @@ If you use or reference this work, please cite:
 
 A. R. Wells (2025). *Dual-Frame Theory: Core Framework* (v1.0.0).  
 Zenodo. https://doi.org/10.5281/zenodo.18027076
+
+> **Versioning note:** This repository is a living index; citations should reference
+> the DOI above and the tagged release version.
