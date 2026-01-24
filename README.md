@@ -176,12 +176,12 @@ by identifying **irreducible constraint classes** and providing **operational cl
 | Module | Constraint Classes | Status | DOI |
 |--------|-------------------|--------|-----|
 | ✅ [`dft-radiation`](https://github.com/arwells-research/dft-radiation) | C1–C5 (phase evolution) | v1.0 RC | — |
+| ✅ [`dft-magnetism`](https://github.com/arwells-research/dft-magnetism) | C1–C5 (circulation phenomenology) | v1.0 | — |
 
 **Candidate modules (scoping stage):**
 
 | Module | Domain | Status |
 |--------|--------|--------|
-| 🔒 `dft-magnetism` | Magnetic field structure | Constraint classes under identification |
 | 🔒 `dft-gravitation` | Gravitational phenomena | Constraint classes under identification |
 
 **Status legend:**
@@ -317,14 +317,30 @@ Test repositories validate specific constraint signatures or combinations identi
 in the module's Binding Atlas. Constraint class labels (C1, C2, etc.) in test descriptions
 refer to `dft-radiation` classifications.
 
-### 6.6 Foundations and Bell-Type Correlations
+### 6.6 Magnetism and Circulation Phenomenology
+
+**Domain module:**
+
+| Repository | Type | Constraint Classes | Status | DOI |
+|-----------|------|-------------------|--------|-----|
+| ✅ [`dft-magnetism`](https://github.com/arwells-research/dft-magnetism) | Module | C1–C5 (circulation phenomenology) | v1.0 | — |
+
+**Note:** `dft-magnetism` provides a constraint-complete, non-mechanistic
+classification of magnetic and circulation phenomena within DFT.
+It establishes admissibility, reconstruction, and falsification boundaries
+for magnetism without introducing material laws or microscopic models.
+
+Constraint classes (C1–C5) here apply to **phase circulation and quasi-static
+field structure**, not radiative dynamics.
+
+### 6.7 Foundations and Bell-Type Correlations
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) | Joint phase dynamics | Bell-CHSH | Validated | — |
 | ✅ [`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics) | Long-range phase evolution | Bell correlations | Validated | — |
 
-### 6.7 Second-Order Organization and Dynamics
+### 6.8 Second-Order Organization and Dynamics
 
 | Repository | Tests (Σ₂ Class) | Dataset/Domain | Status | DOI |
 |-----------|------------------|----------------|--------|-----|
@@ -344,25 +360,25 @@ refer to `dft-radiation` classifications.
 These tools serve as **independent validation surfaces** for Σ₂ constraints and
 provide **adoption pathways** for practitioners who encounter DFT via applied work.
 
-### 6.8 Information Theory and Representation
+### 6.9 Information Theory and Representation
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Validated | 10.5281/zenodo.18048533 |
 
-### 6.9 Arrow Diagnostics and Projection Asymmetry
+### 6.10 Arrow Diagnostics and Projection Asymmetry
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`projection-induced-arrows`](https://github.com/arwells-research/projection-induced-arrows) | Projection asymmetry | Arrow diagnostics | Validated | — |
 
-### 6.10 Neuroscience and Dual-Order Dynamics
+### 6.11 Neuroscience and Dual-Order Dynamics
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | 🔄 [`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics) | Trajectory holonomy | EEG/OpenNeuro | Active | — |
 
-### 6.11 Developmental Biology & Constraint Audits
+### 6.12 Developmental Biology & Constraint Audits
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
