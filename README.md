@@ -83,13 +83,12 @@ A concise statement of falsifiability and verification standards is provided in
 - **Temporal / Spatial (T/S) frame duality** — complementary projections of scalar motion
 - **Winding sectors** — topological admissibility conditions on T-frame evolution
 - **Background Phase Geometry (BPG)** — global constraints on phase coherence
+- **Closure Energy Principle (CEP)** — closure/holonomy mismatch yields finite penalties; logarithms arise from scale-distributed closure stress ([CLOSURE_ENERGY_PRINCIPLE.md](./CLOSURE_ENERGY_PRINCIPLE.md))
 - **Second-order constraint geometry (Σ₂)** — trajectory-dependent organization  
-  *(constraints on whether constraint satisfaction itself remains stable under continuation
-  or intervention; governs when local constraints remain valid under re-projection)*  
-  *(Note: Σ₂ governs when local constraints remain stable under continuation, intervention, 
-  and re-projection. Prototypes exist in `dft-radiation` S-0024/S-0025; formal mechanization 
-  in progress.)*
-
+   *(constraints on whether constraint satisfaction itself remains stable under continuation
+   or intervention; governs when local constraints remain valid under re-projection)*  
+   *(See **[sigma2-framework/](./sigma2-framework/)** for methodology backgrounder, motivating examples, scope boundaries, and the formal forcing schema.)*
+ 
 ### 3.2 Relationship Between Core Theory and Domain Phenomenology
 
 **Core theory provides primitives; domain modules show their manifestation.**
@@ -308,7 +307,7 @@ of the core DFT framework.
 |-----------|-------------------------------|----------------|--------|-----|
 | ✅ [`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion) | Phase coherence (C1, C2) | First-order interference | Validated | — |
 | ✅ [`g2-phase-statistics`](https://github.com/arwells-research/g2-phase-statistics) | Coherence hierarchy (C2) | Second-order correlations | Validated | — |
-| ✅ [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion) | Joint phase dynamics (C2, C5) | HOM interference | Validated | — |
+| ✅ [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion) | Joint phase dynamics (C2, C5) | HOM interference | Validated | 10.5281/zenodo.17931012 |
 | ⚠️ [`hom-topological-phase-history`](https://github.com/arwells-research/hom-topological-phase-history) | Winding sector survival (C2) | HOM benchmarks | Deprecated | — |
 | ✅ [`single-emitter-antibunching`](https://github.com/arwells-research/single-emitter-antibunching) | Exclusivity topology (C2) | Antibunching | Validated | — |
 
@@ -355,10 +354,11 @@ field structure**, not radiative dynamics.
 - [`intervention-faithfulness`](https://github.com/arwells-research/intervention-faithfulness) (Σ₂-I diagnostic for experimental/simulation data)
   - Install: `pip install intervention-faithfulness`
   - Use case: Certify model validity under protocol changes
-  - Does not require DFT knowledge; implements same admissibility logic
+  - Does not require DFT knowledge; implements the same Σ₂ admissibility logic
 
 These tools serve as **independent validation surfaces** for Σ₂ constraints and
-provide **adoption pathways** for practitioners who encounter DFT via applied work.
+provide **adoption pathways** for practitioners who encounter Σ₂ via applied work,
+with the underlying methodology documented in the core theory.
 
 ### 6.9 Information Theory and Representation
 
