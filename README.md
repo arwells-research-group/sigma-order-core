@@ -210,6 +210,10 @@ These repositories extend diagnostic reach without altering the core theory.
 - Information-theoretic constraints
 - Projection asymmetry and arrow diagnostics
 
+Repository | Scope | Domain | Status | DOI
+--- | --- | --- | --- | ---
+✅ [`dft-ringdown-diagnostics`](https://github.com/arwells-research/dft-ringdown-diagnostics) | Σ₂ diagnostics | Ringdown (GR) | Methods note | 10.5281/zenodo.18425951
+
 ---
 
 ## 5. Status of the Framework
