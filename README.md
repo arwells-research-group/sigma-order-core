@@ -70,6 +70,18 @@ DFT is **not**:
 and **competing** at boundaries where standard frameworks use effective models 
 or free parameters.
 
+**Worked example (atomic ionization energies):**
+- **Standard QM:** Ionization energies obtained by solving electronic structure 
+  equations with screening approximations and effective potentials.
+- **DFT interpretation:** Same regularities attributed to winding-sector 
+  admissibility and coherence aperture L—geometric constraints rather than 
+  tuned interaction landscapes.
+- **Overlap:** Both reproduce validated energies where standard methods are 
+  sufficient.
+- **Competing boundary:** DFT commits to specific residual-structure patterns 
+  (GOR-style diagnostics) under frozen parameters. Clean failure if patterns 
+  do not match or require parameter adjustment.
+
 A concise statement of falsifiability and verification standards is provided in  
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
 
