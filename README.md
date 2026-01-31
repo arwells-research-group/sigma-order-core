@@ -12,9 +12,9 @@
 
 ## 1. Purpose and Scope
 
-**Purpose:** Provide a parameter-light, geometry-first framework that explains
-quantization, coherence limits, and correlation structure across quantum,
-atomic, and macroscopic systems — with explicit falsifiability.
+**Purpose:** Provide a parameter-light, geometry-first framework that explains 
+quantization, coherence limits, and correlation structure across quantum, atomic, 
+and macroscopic systems using minimal structural assumptions, with explicit falsifiability.
 
 This repository serves as the canonical, citable theoretical foundation for
 **Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion.
@@ -43,8 +43,8 @@ Temporal (T) and Spatial (S) frames.
 
 DFT is therefore:
 
-- **Explanatory, not phenomenological** — it accounts for observed structure without tunable parameters.
-- **Derivational, not expansive** — it derives familiar behavior from geometric necessity.
+- **Explanatory, not phenomenological** — it accounts for observed structure without tunable parameters or auxiliary mechanisms.
+- **Derivational, not expansive** — it derives familiar behavior from minimal geometric necessity.
 - **Falsifiable, not speculative** — claims are constrained by public benchmarks with explicit failure criteria.
 
 DFT is **not**:
