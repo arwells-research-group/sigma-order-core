@@ -213,6 +213,7 @@ These repositories extend diagnostic reach without altering the core theory.
 Repository | Scope | Domain | Status | DOI
 --- | --- | --- | --- | ---
 ✅ [`dft-ringdown-diagnostics`](https://github.com/arwells-research/dft-ringdown-diagnostics) | Σ₂ diagnostics | Ringdown (GR) | Methods note | 10.5281/zenodo.18425951
+✅ [`dft-lambda-consistency`](https://github.com/arwells-research/dft-lambda-consistency) | Global consistency analysis | Cosmology foundations | Conceptual paper | 10.5281/zenodo.18437571
 
 ---
 
