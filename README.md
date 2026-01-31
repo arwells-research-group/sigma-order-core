@@ -240,7 +240,7 @@ Repository | Scope | Domain | Status | DOI
 
 ## 5. Status of the Framework
 
-> **Scope note:** No claims of technological advantage or engineering readiness are implied.
+> **Scope note:** This section summarizes theoretical maturity and verification status only.
 
 ### 5.1 Established and Verified
 
