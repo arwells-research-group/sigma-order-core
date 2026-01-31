@@ -73,6 +73,10 @@ or free parameters.
 A concise statement of falsifiability and verification standards is provided in  
 **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
 
+All verification, admissibility, frozen-parameter, and falsification rules are
+defined *canonically* in that document. The present README references and applies
+those rules but does not redefine them.
+
 ---
 
 ## 3. Core Theory (Stable Background)
@@ -88,7 +92,12 @@ A concise statement of falsifiability and verification standards is provided in
    *(constraints on whether constraint satisfaction itself remains stable under continuation
    or intervention; governs when local constraints remain valid under re-projection)*  
    *(See **[sigma2-framework/](./sigma2-framework/)** for methodology backgrounder, motivating examples, scope boundaries, and the formal forcing schema.)*
- 
+
+Σ₂ is used throughout the DFT ecosystem as a diagnostic and organizational concept.
+Its formal definition and admissibility criteria are developed in the dedicated
+Σ₂ framework documentation; the present README adopts that usage without
+reintroducing formalism.
+
 ### 3.2 Relationship Between Core Theory and Domain Phenomenology
 
 **Core theory provides primitives; domain modules show their manifestation.**
@@ -181,7 +190,7 @@ by identifying **irreducible constraint classes** and providing **operational cl
 
 | Module | Domain | Status |
 |--------|--------|--------|
-| 🔒 `dft-gravitation` | Gravitational phenomena | Constraint classes under identification |
+| 🔒 `dft-gravity` | Gravitational phenomena | Constraint classes under identification |
 
 **Status legend:**
 - ✅ Public repository, constraint structure complete
@@ -399,23 +408,12 @@ with the underlying methodology documented in the core theory.
 
 ## 7. Verification and Falsifiability
 
-All empirical claims in the Dual-Frame research program are constrained by
-explicit verification and falsification standards.
+Verification, falsification, frozen-parameter validation, and challenge protocols
+are defined centrally in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
 
-**Key principles:**
-
-- **Frozen-parameter validation:** No post-hoc parameter fitting; predictions use
-  parameters fixed from prior work or first principles
-  
-- **Public datasets:** All validations use publicly accessible benchmarks
-  (NIST, ENSDF, SPARC, OpenNeuro, etc.)
-  
-- **Explicit falsification gates:** Each domain module and test repository declares
-  what would constitute failure
-  
-- **Challenge protocol:** Completeness claims are falsifiable and audit-facing. 
-  Challenges are logged publicly in module Challenge Logs within 30 days. Resolution 
-  (acceptance → versioned update, rejection → documented rationale) tracked transparently.
+This section summarizes how those principles are *applied* across repository
+types (core theory, domain modules, empirical tests), rather than restating the
+rules themselves.
 
 **Completeness falsification (domain modules):**
 
