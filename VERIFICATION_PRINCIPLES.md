@@ -2,6 +2,27 @@
 
 To maintain scientific rigor and prevent the theory from regressing into arbitrary curve-fitting, all derivative projects and verification benchmarks must adhere to these four core principles.
 
+---
+
+## 0. Operational Status Definitions
+
+Repository status labels are **mechanical, not descriptive**.
+
+A repository may be marked **Production / Validated (✅)** only if all of the following hold:
+
+1. Parameters are frozen prior to evaluation
+2. Public dataset is cited and accessible
+3. Reproduction script regenerates all reported figures/tables
+4. Falsification surface is explicitly defined
+5. Results are reproducible byte-for-byte from raw inputs
+6. No post-hoc parameter adjustment occurred
+
+Failure of any condition removes the label.
+
+"Analytic (theory)" indicates derivations only and makes no empirical claim.
+"In-development" indicates that one or more criteria are incomplete.
+
+---
 ## 1. The Zero-Parameter Constraint
 A primary claim of DFT is that physical observables are geometric consequences of the T/S frame projection. 
 * **Requirement:** Phenomenon must be explained via integer winding numbers ($n$), fixed geometric constants (e.g., $\alpha$), or universal spatial limits (e.g., $L \approx 3.8 \, a_0$).
@@ -39,6 +60,12 @@ DFT emphasizes the separation of physical causes. A verification is only valid i
 DFT seeks to explain existing "anomalous" data or standard quantum limits. All verification projects must:
 * Use raw data from recognized international standards (e.g., NIST Atomic Spectra Database).
 * Provide open-source implementations (Python/Bash) that allow for direct, byte-for-byte reproducibility.
+
+**Independent verification requirement:**  
+Any third party must be able to clone the repository and regenerate all reported
+results using the provided scripts without modifying code or parameters.
+Hidden preprocessing steps, manual intervention, or undocumented pipelines
+invalidate verification status.
 
 ## 4. Current Public Benchmarks
 The following repositories serve as the primary evidence stack for the principles established in this foundation:
@@ -189,3 +216,14 @@ DFT therefore invites, rather than resists, decisive tests.
 *For specific reproduction steps for the computational models, please refer to the `verify.sh` or `repro.sh` files within each respective repository.*
 
 Claims outside these verification standards should be treated as speculative and are not endorsed by the Dual-Frame Research Group.
+
+---
+
+## Governance and Transparency
+
+- **Funding:** No dedicated external funding unless stated per repository
+- **Competing interests:** None
+- **Patents / IP:** No patent restrictions or proprietary claims unless explicitly stated per repository
+- **Reproducibility:** All empirical claims must be independently reproducible from public data using provided scripts
+- **Corrections:** Identified errors result in versioned corrections and updated releases
+- **Negative results:** Preserved and logged
