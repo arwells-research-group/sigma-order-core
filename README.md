@@ -10,6 +10,28 @@
 
 ---
 
+### Research Integrity and Reproducibility Model
+
+The Dual-Frame research program operates under audit-grade, falsifiable,
+and independently reproducible standards. Empirical claims are accepted only
+when they meet operational criteria, not author assertion.
+
+Across repositories:
+
+- Parameters are frozen prior to evaluation (no post-hoc tuning)
+- Public datasets are cited and externally accessible
+- Scripts regenerate all reported figures/tables from raw data
+- Each project defines an explicit falsification surface
+- Negative results are preserved and logged
+- Claims are limited to what the measurements warrant
+
+Repository status labels (e.g., **Validated / Production**) are mechanical and
+defined by the criteria in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
+
+Independent reproduction by third parties is encouraged and expected.
+
+---
+
 ## 1. Purpose and Scope
 
 **Purpose:** Provide a parameter-light, geometry-first framework that explains 
@@ -21,7 +43,7 @@ This repository serves as the canonical, citable theoretical foundation for
 
 This repository is a **conceptual and organizational index** for the Dual-Frame
 research ecosystem. All empirical claims are constrained by explicit verification
-and falsification standards defined in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
+and falsification standards defined in VERIFICATION_PRINCIPLES.md.
 
 > **TL;DR**
 > Dual-Frame Theory is a geometry-first framework that explains quantization,
@@ -83,7 +105,7 @@ or free parameters.
   do not match or require parameter adjustment.
 
 A concise statement of falsifiability and verification standards is provided in  
-**[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
+VERIFICATION_PRINCIPLES.md.
 
 All verification, admissibility, frozen-parameter, and falsification rules are
 defined *canonically* in that document. The present README references and applies
@@ -421,7 +443,7 @@ with the underlying methodology documented in the core theory.
 ## 7. Verification and Falsifiability
 
 Verification, falsification, frozen-parameter validation, and challenge protocols
-are defined centrally in **[VERIFICATION_PRINCIPLES.md](./VERIFICATION_PRINCIPLES.md)**.
+are defined centrally in VERIFICATION_PRINCIPLES.md.
 
 This section summarizes how those principles are *applied* across repository
 types (core theory, domain modules, empirical tests), rather than restating the
