@@ -1,6 +1,7 @@
 # Standards of Verification for Dual-Frame Theory (DFT)
 
-To maintain scientific rigor and prevent the theory from regressing into arbitrary curve-fitting, all derivative projects and verification benchmarks must adhere to these four core principles.
+To maintain scientific rigor and prevent regression into arbitrary curve-fitting, all derivative projects and verification benchmarks must adhere to the standards below.
+The standards include zero-parameter constraints, mechanism separation, data provenance and reproducibility, and explicit falsification conditions.
 
 ---
 
