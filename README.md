@@ -3,6 +3,25 @@
 
 ---
 
+## Naming note (Sigma-order transition)
+
+This research program historically used the name **Dual-Frame Theory (DFT)**. Because “DFT”
+is widely associated with *density functional theory*, we are transitioning the public-facing
+name toward **Sigma-order theory** (also written **Σ-order**).
+
+**Conventions used across repositories and papers:**
+
+- First introduction: **Sigma-order (Σ-order)**
+- Formal/technical contexts: **Σ** (e.g., **Σ₂**, **Σ₃**)
+- Prose, titles, and narrative text: **Sigma-order**
+
+This is a *naming/terminology transition only*: it does not change any existing claims,
+verification standards, DOIs, or repository lineage. Where older repositories or documents
+use “DFT”, interpret it as referring to the same underlying framework, now being indexed
+under Sigma-order terminology.
+
+---
+
 > **Repository status:** Early-stage research program maintained by a non-dedicated researcher. 
 > Documentation reflects conceptual architecture and ongoing work. Not all listed repositories 
 > are public yet. Completeness claims (e.g., `dft-radiation` C1–C5) are falsifiable but 
@@ -39,7 +58,8 @@ quantization, coherence limits, and correlation structure across quantum, atomic
 and macroscopic systems using minimal structural assumptions, with explicit falsifiability.
 
 This repository serves as the canonical, citable theoretical foundation for
-**Dual-Frame Theory (DFT)**, a geometry-first framework based on the primacy of motion.
+**Sigma-order theory (Σ-order)**, a geometry-first framework based on the primacy of motion
+(historically referred to in this program as **Dual-Frame Theory (DFT)**).
 
 This repository is a **conceptual and organizational index** for the Dual-Frame
 research ecosystem. All empirical claims are constrained by explicit verification
@@ -54,7 +74,8 @@ and falsification standards defined in VERIFICATION_PRINCIPLES.md.
 
 ## 2. What Dual-Frame Theory Is — and Is Not
 
-Dual-Frame Theory (DFT) is a **geometry-first explanatory framework**, not a
+Sigma-order theory (Σ-order) (historically: Dual-Frame Theory / DFT) is a
+**geometry-first explanatory framework**, not a
 replacement formalism for quantum mechanics or general relativity.
 
 DFT does **not** introduce new dynamical postulates, hidden variables, or stochastic
@@ -258,6 +279,8 @@ Repository | Scope | Domain | Status | DOI
 ✅ [`dft-ringdown-diagnostics`](https://github.com/arwells-research/dft-ringdown-diagnostics) | Σ₂ diagnostics | Ringdown (GR) | Methods note | 10.5281/zenodo.18425951
 ✅ [`dft-lambda-consistency`](https://github.com/arwells-research/dft-lambda-consistency) | Global consistency analysis | Cosmology foundations | Conceptual paper | 10.5281/zenodo.18437571
 ✅ [`admissibility-beyond-minimal-surfaces`](https://github.com/arwells-research/admissibility-beyond-minimal-surfaces) | Scope limits | Network geometry | Conceptual paper | 10.5281/zenodo.18444241
+✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Representational reconstruction | Quantum kinematics (Hilbert representability) | Paper repo | 10.5281/zenodo.18646222
+ 
 ---
 
 ## 5. Status of the Framework
@@ -413,7 +436,8 @@ with the underlying methodology documented in the core theory.
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Validated | 10.5281/zenodo.18048533 |
-
+| ✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Hilbert representability from distinguishability axioms | Quantum kinematics (representational) | Paper repo | 10.5281/zenodo.18646222 |
+ 
 ### 6.10 Arrow Diagnostics and Projection Asymmetry
 
 | Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
