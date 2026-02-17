@@ -1,24 +1,28 @@
-# Dual-Frame Research Group: Core Theory Hub
+# Dual-Frame Research Group: Σ-Order Core Theory Hub
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18027076.svg)](https://doi.org/10.5281/zenodo.18027076)
 
 ---
 
-## Naming note (Sigma-order transition)
+## Naming note (Σ-Order transition)
 
-This research program historically used the name **Dual-Frame Theory (DFT)**. Because “DFT”
-is widely associated with *density functional theory*, we are transitioning the public-facing
-name toward **Sigma-order theory** (also written **Σ-order**).
+This research program historically used the name **Dual-Frame Theory (DFT)**.
+Because “DFT” is widely associated with *density functional theory*, the public-facing
+name of the framework is now **Σ-Order theory (ΣO)**.
+
+The term **Dual-Frame** remains valid when referring specifically to the dual-projection
+structure (Temporal / Spatial frames), but the overall theoretical framework is indexed
+under **Σ-Order** terminology.
 
 **Conventions used across repositories and papers:**
 
-- First introduction: **Sigma-order (Σ-order)**
+- First introduction: **Σ-Order theory (ΣO)**
 - Formal/technical contexts: **Σ** (e.g., **Σ₂**, **Σ₃**)
-- Prose, titles, and narrative text: **Sigma-order**
+- Prose, titles, and narrative text: **Σ-Order** (abbrev: **ΣO**)
 
 This is a *naming/terminology transition only*: it does not change any existing claims,
 verification standards, DOIs, or repository lineage. Where older repositories or documents
-use “DFT”, interpret it as referring to the same underlying framework, now being indexed
-under Sigma-order terminology.
+use “DFT”, interpret it as referring to the same underlying framework, now indexed under
+Σ-Order terminology.
 
 ---
 
@@ -58,7 +62,7 @@ quantization, coherence limits, and correlation structure across quantum, atomic
 and macroscopic systems using minimal structural assumptions, with explicit falsifiability.
 
 This repository serves as the canonical, citable theoretical foundation for
-**Sigma-order theory (Σ-order)**, a geometry-first framework based on the primacy of motion
+**Σ-Order theory (ΣO)**, a geometry-first framework based on the primacy of motion
 (historically referred to in this program as **Dual-Frame Theory (DFT)**).
 
 This repository is a **conceptual and organizational index** for the Dual-Frame
@@ -66,62 +70,61 @@ research ecosystem. All empirical claims are constrained by explicit verificatio
 and falsification standards defined in VERIFICATION_PRINCIPLES.md.
 
 > **TL;DR**
-> Dual-Frame Theory is a geometry-first framework that explains quantization,
+> Σ-Order theory (historically referred to as Dual-Frame Theory) is a geometry-first framework that explains quantization,
 > coherence limits, and correlation structure using topological constraints on motion.
 > It does not replace QM or GR, but constrains where and how effective models apply.
 
 ---
 
-## 2. What Dual-Frame Theory Is — and Is Not
+## 2. What ΣO Is — and Is Not
 
-Sigma-order theory (Σ-order) (historically: Dual-Frame Theory / DFT) is a
-**geometry-first explanatory framework**, not a
+ΣO (Σ-order) is a **geometry-first explanatory framework**, not a
 replacement formalism for quantum mechanics or general relativity.
 
-DFT does **not** introduce new dynamical postulates, hidden variables, or stochastic
+ΣO does **not** introduce new dynamical postulates, hidden variables, or stochastic
 mechanisms at the foundational level. Instead, it proposes that many discrete and
 correlation-driven physical phenomena arise from **topological constraints on
 motion** when a universal scalar progression is projected into complementary
 Temporal (T) and Spatial (S) frames.
 
-DFT is therefore:
+ΣO is therefore:
 
 - **Explanatory, not phenomenological** — it accounts for observed structure without tunable parameters or auxiliary mechanisms.
 - **Derivational, not expansive** — it derives familiar behavior from minimal geometric necessity.
 - **Falsifiable, not speculative** — claims are constrained by public benchmarks with explicit failure criteria.
 
-DFT is **not**:
+ΣO is **not**:
 
 - a commitment to a single predictive formalism,
 - confined to a particular physical scale,
 - or a claim that established models fail where their reductions remain sufficient.
 
-### Where DFT Reproduces vs. Competes
+### Where ΣO Reproduces vs. Competes
 
-**DFT reproduces standard QM/GR in validated regimes** (survival constraint):
+**ΣO reproduces standard QM/GR in validated regimes** (survival constraint):
 - Standard coherence envelopes (Gaussian phase diffusion)
 - Uncertainty relations (T/S projection complementarity)
 - Local weak-field gravitational effects
 - Standard spectral relationships (stationary Fourier)
 
-**DFT competes by predicting new admissibility boundaries:**
+**ΣO competes by predicting new admissibility boundaries:**
 - Refusal where standard practice continues (winding hops, aperture violations)
 - Attribution constraints without free parameters (rotation curves, atomic structure)
 - Cross-domain invariants (same L, same winding rules across scales)
 
-**Key claim:** DFT is **interpretive** where QM/GR are maximally constrained, 
+**Key claim:** ΣO is **interpretive** where QM/GR are maximally constrained, 
 and **competing** at boundaries where standard frameworks use effective models 
 or free parameters.
 
 **Worked example (atomic ionization energies):**
 - **Standard QM:** Ionization energies obtained by solving electronic structure 
   equations with screening approximations and effective potentials.
-- **DFT interpretation:** Same regularities attributed to winding-sector 
+- **ΣO interpretation:** Same regularities attributed to winding-sector 
   admissibility and coherence aperture L—geometric constraints rather than 
   tuned interaction landscapes.
 - **Overlap:** Both reproduce validated energies where standard methods are 
   sufficient.
-- **Competing boundary:** DFT commits to specific residual-structure patterns 
+- **Competing boundary:** ΣO commits to specific residual-structure patterns 
   (GOR-style diagnostics) under frozen parameters. Clean failure if patterns 
   do not match or require parameter adjustment.
 
@@ -148,7 +151,7 @@ those rules but does not redefine them.
    or intervention; governs when local constraints remain valid under re-projection)*  
    *(See **[sigma2-framework/](./sigma2-framework/)** for methodology backgrounder, motivating examples, scope boundaries, and the formal forcing schema.)*
 
-Σ₂ is used throughout the DFT ecosystem as a diagnostic and organizational concept.
+Σ₂ is used throughout the Σ-Order ecosystem as a diagnostic and organizational concept.
 Its formal definition and admissibility criteria are developed in the dedicated
 Σ₂ framework documentation; the present README adopts that usage without
 reintroducing formalism.
@@ -157,7 +160,7 @@ reintroducing formalism.
 
 **Core theory provides primitives; domain modules show their manifestation.**
 
-The DFT core (Section 3.1) establishes foundational primitives: scalar progression,
+The ΣO core (Section 3.1) establishes foundational primitives: scalar progression,
 T/S frame duality, winding sectors, BPG, and Σ₂. These are **scale-independent**
 and **domain-neutral**.
 
@@ -195,7 +198,7 @@ core primitives.
 
 ### 3.3 Canonical Structure and Reading Order (Pedagogical)
 
-The DFT core theory is written as a **single, internally numbered development**.
+The ΣO core theory is written as a **single, internally numbered development**.
 
 - Section numbering inside documents is **authoritative**
 - File boundaries are organizational only
@@ -231,7 +234,7 @@ are for organization only.
 
 ### 4.1 Domain Phenomenology Modules
 
-Domain phenomenology modules apply core DFT constraints to specific empirical domains 
+Domain phenomenology modules apply core ΣO constraints to specific empirical domains 
 by identifying **irreducible constraint classes** and providing **operational classification tests**.
 
 **Established modules:**
@@ -336,30 +339,30 @@ constitute a major theoretical revision (v2.0+), not a patch.
 ## 6. Associated Research Repositories
 
 Each repository below implements a falsifiable test, validation, or extension
-of the core DFT framework.
+of the core ΣO framework.
 
 ### 6.1 Atomic and Structural Physics
 
-| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset | Status | DOI |
 |-----------|------------------------|---------|--------|-----|
 | ✅ [`gor-caf`](https://github.com/arwells-research/gor-caf) | Winding sectors, coherence aperture | NIST ionization energies | Validated | 10.5281/zenodo.18027076 |
 | ✅ [`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model) | Coherence aperture L | Periodic table structure | Validated | — |
 
 ### 6.2 Nuclear Decay and Lifetime Scaling
 
-| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset | Status | DOI |
 |-----------|------------------------|---------|--------|-----|
 | ✅ [`satz-lifetime-diagnostics`](https://github.com/arwells-research/satz-lifetime-diagnostics) | Phase-space scaling, Σ₂ diagnostics | ENSDF β-decay lifetimes | Validated | — |
 
 ### 6.3 Macroscopic Vacuum and MEMS
 
-| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset | Status | DOI |
 |-----------|------------------------|---------|--------|-----|
 | 🔄 [`casimir-mems-geometry`](https://github.com/arwells-research/casimir-mems-geometry) | Background Phase Geometry | Casimir force regimes (MEMS) | In development | — |
 
 ### 6.4 Astrophysical Kinematics and Large-Scale Structure
 
-| Repository | Tests (DFT Primitives) | Dataset | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset | Status | DOI |
 |-----------|------------------------|---------|--------|-----|
 | ✅ [`dft-astro-nonlocal-kinematics`](https://github.com/arwells-research/dft-astro-nonlocal-kinematics) | Nonlocal kinematic geometry | SPARC rotation curves | Validated | — |
 
@@ -397,7 +400,7 @@ refer to `dft-radiation` classifications.
 | ✅ [`dft-magnetism`](https://github.com/arwells-research/dft-magnetism) | Module | C1–C5 (circulation phenomenology) | v1.0 | — |
 
 **Note:** `dft-magnetism` provides a constraint-complete, non-mechanistic
-classification of magnetic and circulation phenomena within DFT.
+classification of magnetic and circulation phenomena within ΣO.
 It establishes admissibility, reconstruction, and falsification boundaries
 for magnetism without introducing material laws or microscopic models.
 
@@ -406,7 +409,7 @@ field structure**, not radiative dynamics.
 
 ### 6.7 Foundations and Bell-Type Correlations
 
-| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) | Joint phase dynamics | Bell-CHSH | Validated | — |
 | ✅ [`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics) | Long-range phase evolution | Bell correlations | Validated | — |
@@ -426,7 +429,7 @@ field structure**, not radiative dynamics.
 - [`intervention-faithfulness`](https://github.com/arwells-research/intervention-faithfulness) (Σ₂-I diagnostic for experimental/simulation data)
   - Install: `pip install intervention-faithfulness`
   - Use case: Certify model validity under protocol changes
-  - Does not require DFT knowledge; implements the same Σ₂ admissibility logic
+  - Does not require ΣO knowledge; implements the same Σ₂ admissibility logic
 
 These tools serve as **independent validation surfaces** for Σ₂ constraints and
 provide **adoption pathways** for practitioners who encounter Σ₂ via applied work,
@@ -434,26 +437,26 @@ with the underlying methodology documented in the core theory.
 
 ### 6.9 Information Theory and Representation
 
-| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Validated | 10.5281/zenodo.18048533 |
 | ✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Hilbert representability from distinguishability axioms | Quantum kinematics (representational) | Paper repo | 10.5281/zenodo.18646222 |
  
 ### 6.10 Arrow Diagnostics and Projection Asymmetry
 
-| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`projection-induced-arrows`](https://github.com/arwells-research/projection-induced-arrows) | Projection asymmetry | Arrow diagnostics | Validated | — |
 
 ### 6.11 Neuroscience and Dual-Order Dynamics
 
-| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | 🔄 [`dft-dual-order-dynamics`](https://github.com/arwells-research/dft-dual-order-dynamics) | Trajectory holonomy | EEG/OpenNeuro | Active | — |
 
 ### 6.12 Developmental Biology & Constraint Audits
 
-| Repository | Tests (DFT Primitives) | Dataset/Domain | Status | DOI |
+| Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`lineage-constraint-audit`](https://github.com/arwells-research/lineage-constraint-audit) | Constraint-first audit logic (Σ₂-adjacent) | Lineage detectability in scRNA-seq (C. elegans) | Validated | — |
 
