@@ -277,6 +277,7 @@ These repositories extend diagnostic reach without altering the core theory.
 Repository | Scope | Domain | Status | DOI
 --- | --- | --- | --- | ---
 ✅ [`dft-ringdown-diagnostics`](https://github.com/arwells-research/dft-ringdown-diagnostics) | Σ₂ diagnostics | Ringdown (GR) | Methods note | 10.5281/zenodo.18425951
+✅ [`kernel-gravity-witness`](https://github.com/arwells-research/kernel-gravity-witness) | Σ₂ transport admissibility witness (curvature/nonmetricity channels + diagnostic SPD metric-fit) | Patch-overlap transport (pre-gravity admissibility instrument) | Validated instrument | —
 ✅ [`dft-lambda-consistency`](https://github.com/arwells-research/dft-lambda-consistency) | Global consistency analysis | Cosmology foundations | Conceptual paper | 10.5281/zenodo.18437571
 ✅ [`admissibility-beyond-minimal-surfaces`](https://github.com/arwells-research/admissibility-beyond-minimal-surfaces) | Scope limits | Network geometry | Conceptual paper | 10.5281/zenodo.18444241
 ✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Representational reconstruction | Quantum kinematics (Hilbert representability) | Paper repo | 10.5281/zenodo.18646222
