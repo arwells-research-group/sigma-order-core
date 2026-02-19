@@ -1,185 +1,236 @@
-# dft-core-theory/sigma2-framework/structural-extremum-forcing.md
+# Structural Closure-Admissibility Forcing (Σ₂)
 
-# Structural Extremum Forcing (Σ₂)
+This document formalizes the core Σ₂ forcing schema as a projection-closure
+admissibility classification principle.
 
-This document formalizes a reusable Σ₂ forcing pattern:
+Σ₂ establishes that certain projection representations are structurally inadmissible
+because they cannot arise from any closure-consistent carrier configuration.
 
-- A projection observable fails to exhibit a required extremum only if
-  a large “coherence configuration” exists in a structural carrier.
-- Under symmetry, that coherence proliferates.
-- Proliferation violates a global capacity constraint.
-- Therefore the non-extremal alternative is inadmissible and the extremum is forced.
+This is a proof architecture template, not a domain-specific theorem.
 
-This is a **proof architecture template**, not a domain-specific theorem.
-Each application must supply the domain-specific “inverse bridge” that extracts
-coherence from non-extremality and must specify what “capacity” means in that
-carrier.
+Each application must supply:
+
+- a carrier space with closure structure,
+- an inverse bridge linking projection behavior to carrier coherence,
+- a symmetry proliferation mechanism,
+- and a finite closure capacity bound.
 
 ---
 
-## Definition 1 — Observable projection
+## Definition 1 — Projection representation
 
-Let
-  O : C -> R
-be a real-valued observable on a configuration space C.
+Let:
 
-We say O is a **projection observable** if there exists a structured carrier S
-and a surjective map
-  pi : S -> C
-such that:
+C be a carrier configuration space,  
+R be a representation space, and  
+P : C → R be a projection mapping.
 
-1) O o pi depends only on **relational features** in S (not internal labels of C), and  
-2) those relational features are **invariant** under a symmetry action of a group G on S.
+A representation r in R is called a projection representation if it is obtained
+from at least one carrier configuration:
+
+P(c) = r.
+
+Projection mappings typically discard closure-relevant structure present in C.
 
 ---
 
 ## Definition 2 — Structural carrier
 
-A **structural carrier** S is equipped with:
+A structural carrier C consists of:
 
-- a symmetry group G acting transitively (or effectively) on S,
-- a local compatibility relation
-    R ⊂ S × S,
-- a measure of induced compatible structure
-    mu( R(X) )
-  for X ⊂ S,
-- and a finite global capacity bound
-    Cap(S) < ∞
-  such that for all X ⊂ S,
-    mu( R(X) ) ≤ Cap(S).
+- a closure structure defining admissible configurations,
+- a symmetry group G acting on C,
+- a compatibility relation between configurations,
+- and a finite closure capacity bound Cap(C) < ∞.
 
-Interpretation:
-- R encodes “pairwise compatibility” (clique adjacency, phase-locking,
-  constructive coexistence, etc.).
-- mu counts or measures the total compatible structure induced by X.
-- Cap(S) is a global admissibility bound (edge budget, volume budget, winding
-  budget, entropy budget, etc.), and must be finite on the regime of interest.
+Closure capacity represents the maximum admissible compatible structure that
+can exist in the carrier.
+
+Examples of closure capacity include:
+
+- bounded phase-coherence capacity,
+- bounded winding capacity,
+- bounded compatibility structure,
+- bounded admissible closure volume.
+
+Closure capacity must be finite in the regime of interest.
 
 ---
 
 ## Definition 3 — Coherence configuration
 
-A **coherence configuration** is a subset K ⊂ S such that:
-  for all x,y in K, (x,y) in R.
+A coherence configuration is a subset K of C such that:
 
-Equivalently: all elements of K are pairwise compatible.
+all configurations in K remain mutually closure-compatible.
 
-Examples (schema-level):
-- cliques (graphs),
-- degenerate / phase-locked modes (spectral or phase carriers),
-- coherent circulation sets (flux/circulation carriers).
+This means closure constraints are preserved across the entire set.
 
----
+Examples include:
 
-## Definition 4 — Symmetry closure
-
-The **symmetry closure** of K is:
-  K_bar = union_{g in G} (g · K).
+- phase-locked transport configurations,
+- compatible winding sectors,
+- compatible compatibility structures,
+- mutually closure-consistent carrier states.
 
 ---
 
-## Assumption A — Inverse bridge (coherence from non-extremality)
+## Definition 4 — Symmetry proliferation
 
-There exists a threshold function tau and a size function k0(tau) such that:
+Let G be a symmetry group acting on C.
 
-If the required extremum/threshold crossing fails, then a large coherence
-configuration exists.
+The symmetry proliferation of a coherence configuration K is the set:
 
-A common threshold form is:
+Closure(K) = union over all g in G of g(K)
 
-  if   inf_{c in C} O(c) > -tau
-  then there exists K ⊂ S with |K| ≥ k0(tau) that is pairwise R-compatible.
-
-Notes:
-- This assumption is where domain expertise lives.
-- In many settings, it is an “inverse theorem” step:
-  non-extremality implies hidden structure/coherence.
+Symmetry proliferation generates additional closure-consistent configurations.
 
 ---
 
-## Assumption B′ — Orbit expansion / low-overlap proliferation (checkable form)
+## Assumption A — Inverse bridge (projection behavior implies coherence)
 
-There exists a finite subset H ⊂ G (a “proliferation set”) and constants
-alpha > 0, beta ≥ 0 such that for every coherence configuration K with
-|K| ≥ k0(tau):
+There exists a projection representation r such that:
 
-1) Many distinct translates:
-     |H| ≥ alpha · |K|     (or |H| ≥ alpha, depending on the carrier)
+if r satisfies a specified non-admissible projection condition,
 
-2) Limited overlap:
-     sum_{h in H} | (h·K) ∩ K | ≤ beta · |K|.
+then there exists a coherence configuration K in C with size exceeding a
+specified threshold.
 
-Interpretation:
-- The symmetry action produces many copies of K.
-- Overlap is controlled so the union grows substantially.
-- This is typically verified via translation-like actions, orbit–stabilizer
-  bounds, expansion properties, or combinatorial overlap bounds.
+This is the domain-specific inverse bridge.
+
+This step connects projection behavior to carrier coherence.
 
 ---
 
-## Definition 5 — Capacity violation
+## Assumption B — Proliferation under symmetry
 
-A **capacity violation** occurs if there exists X ⊂ S such that:
+There exists a symmetry proliferation set H in G such that:
 
-  mu( R(X) ) > Cap(S).
+- symmetry operations generate multiple distinct coherence configurations,
+- overlap between proliferated configurations is controlled,
+- total coherent structure grows under proliferation.
+
+This ensures symmetry replication of closure structure.
 
 ---
 
-## Theorem — Structural Extremum Forcing (Σ₂)
+## Assumption C — Finite closure capacity
 
-Let O be a projection observable with structural carrier S, symmetry group G,
-compatibility relation R, induced-structure measure mu, and capacity bound Cap(S).
+The carrier C has a finite closure capacity Cap(C).
+
+No carrier configuration may exceed this capacity.
+
+This represents a global admissibility constraint.
+
+---
+
+## Definition 5 — Closure-capacity violation
+
+A closure-capacity violation occurs if a configuration X satisfies:
+
+compatible_structure(X) > Cap(C)
+
+Such configurations are closure-inadmissible.
+
+---
+
+## Theorem — Structural Closure-Admissibility Forcing (Σ₂)
+
+Let:
+
+P : C → R be a projection mapping from carrier configurations to representation space.
 
 Assume:
 
-1) Inverse bridge (Assumption A): failure of a required extremum/threshold
-   implies existence of a coherence configuration K ⊂ S with |K| ≥ k0(tau).
+1. Inverse bridge — non-admissible projection representation implies existence of a coherence configuration K.
 
-2) Proliferation (Assumption B′): the symmetry action admits a proliferation set H
-   with controlled overlap so that symmetry closure produces sufficiently large
-   induced compatible structure.
+2. Symmetry proliferation — coherence configurations replicate under symmetry.
 
-3) Capacity bound: for all X ⊂ S, mu( R(X) ) ≤ Cap(S).
+3. Finite closure capacity — carrier capacity is bounded.
 
-Then the non-extremal alternative implies a capacity violation and is inadmissible.
-Therefore the required extremum/threshold crossing is forced:
+Then:
 
-  inf_{c in C} O(c) ≤ -tau.
+symmetry proliferation of K produces closure structure exceeding Cap(C).
 
----
+Therefore:
 
-## Corollary — Refusal semantics
+no closure-consistent carrier configuration exists that projects to the original representation.
 
-The extremal behavior is established not by optimization or dynamics but by
-**structural refusal**:
+Thus:
 
-- the “no-extremum” alternative entails inadmissible compatible structure,
-- so it is rejected on admissibility grounds.
+the projection representation is closure-inadmissible.
 
-This is a Σ₂ conclusion: existence-by-inadmissibility, not magnitude-by-mechanism.
+This establishes Σ₂ inadmissibility classification.
 
 ---
 
-## What this theorem does and does not claim
+## Corollary — Structural refusal
 
-This theorem provides a reusable forcing schema once a domain supplies:
-- the inverse bridge (A),
-- a checkable proliferation condition (B′),
-- and a meaningful global capacity bound.
+Closure-inadmissible representations cannot occur in any closure-consistent carrier.
 
-It does not claim:
-- numerical values of extrema,
-- detailed mechanism of how the system realizes the extremum,
-- that all extrema arise from Σ₂ forcing.
+This is structural refusal.
+
+Refusal arises from closure inconsistency, not dynamics.
 
 ---
 
-## Schema-level domain correspondences (illustrative only)
+## Corollary — Extremum forcing interpretation (optional)
 
-Domain            Observable O                 Coherence K                 Capacity
-Number theory     cosine minimum               clique-like structure       edge budget / spectrum bound
-Atomic physics    degeneracy / splitting       phase-locked modes          admissible phase-volume / closure budget
-Magnetism         flux / circulation measure   coherent circulation sets   winding / admissible circulation complexity
-Gravity           sector selection             symmetry-stable stress      boundary / admissibility constraints
+In domains where closure-admissible representations correspond to extremal values
+of an observable, Σ₂ inadmissibility implies that the non-extremal alternative
+cannot exist.
 
-These are correspondences of proof architecture, not claims of physical identity.
+Thus extremal behavior is forced as a consequence of closure admissibility.
+
+Extremality is a consequence, not the primary principle.
+
+---
+
+## Interpretation
+
+Σ₂ does not compute representation structure.
+
+Σ₂ classifies which representations are admissible.
+
+It operates at the projection-closure admissibility level.
+
+It does not provide dynamics or reconstruction.
+
+---
+
+## What this theorem requires from applications
+
+Each application must supply:
+
+- a carrier space definition,
+- a projection mapping,
+- an inverse bridge,
+- a symmetry proliferation mechanism,
+- a closure capacity bound.
+
+Without these, no Σ₂ forcing claim may be made.
+
+---
+
+## Domain correspondences (schema-level)
+
+Domain             Carrier structure              Closure capacity example
+Atomic physics     phase transport carriers       admissible phase closure capacity
+Spectral theory    mode carriers                 admissible spectral closure structure
+Topology           winding carriers              admissible winding capacity
+Compatibility      constraint carriers           admissible compatibility capacity
+
+These illustrate structure only.
+
+They are not claims of physical identity.
+
+---
+
+## Role within Σ-Order framework
+
+Σ₂ operates at the projection-closure admissibility layer.
+
+It determines which representations are structurally admissible.
+
+It does not reconstruct dynamics or mechanisms.
+
+Reconstruction and mechanism derivation belong to separate structural layers.
