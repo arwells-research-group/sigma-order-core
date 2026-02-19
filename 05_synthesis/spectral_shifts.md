@@ -1,89 +1,167 @@
-# 5. Synthesis: Spectral Shifts and the Universal Geometry
+# 5. Synthesis: Spectral Shifts and Universal Projection Geometry
 
-The ultimate goal of Dual-Frame Theory is to demonstrate that the discrete phenomena
-of the microscopic world (atomic spectra) and the macroscopic world (quantized flux)
-arise from a single, underlying **Background Phase Geometry (BPG)**.
+The preceding chapters established that discrete spectra, atomic residual structure,
+and macroscopic flux quantization all arise from a common structural requirement:
+**projection-closure admissibility**.
 
-## 5.1 The Geometric Origin of Alpha (α)
+Physical observables correspond to projections of compact trajectory structure into
+the extensive observer frame. Discrete spectra arise when only certain trajectory
+classes admit globally consistent projection.
 
-The fine-structure constant, α ≈ 1/137, is traditionally viewed as the coupling
-strength of the electromagnetic interaction. In DFT, α is reinterpreted as a
-**geometric ratio** between two fundamental scales:
+This section synthesizes those results and identifies the universal scaling parameters
+that govern projection closure across domains.
 
-1. **The T-frame winding scale:** the intrinsic unit of phase transport  
-2. **The S-frame projection scale:** the extensive unit of spatial displacement  
+---
 
-### 5.1.1 The Ratio of Curvatures
+## 5.1 The Fine-Structure Constant as a Projection Scaling Ratio
 
-α represents the “energy tax,” or curvature cost, incurred when a T-frame winding
-trajectory is projected onto the S-frame manifold. Because the BPG is non-flat (as
-established in Section 2.5), every unit of spatial displacement carries a mandatory
-phase offset.
+The fine-structure constant, α ≈ 1/137, is traditionally interpreted as a coupling
+constant governing electromagnetic interaction strength.
 
-The value of α is the numerical expression of this **phase-to-space scaling factor**.
-In this framework, α characterizes the geometry of projection itself; its precise
-numerical value is treated as empirical and is not derived here.
+In Σ-Order theory, α is reinterpreted as a **projection scaling ratio** between:
 
-## 5.2 Unifying the Lamb Shift and the GOR
+1. the intrinsic phase-transport scale of compact trajectory structure, and  
+2. the extensive displacement scale of the observer frame.
 
-The **Lamb shift** (microscopic splitting) and the **Geometric Occupancy Rule**
-(shell-level splitting) are the same phenomenon operating at different scales of the
-BPG.
+This ratio governs how compact trajectory classes map into extended observables.
 
-| Feature | Lamb Shift | GOR (+3 / −4) |
-| :--- | :--- | :--- |
-| **Scale** | n = 2 (hydrogen) | n = 2–4 (p-block) |
-| **Cause** | Intrinsic curvature (fine) | Winding-sector competition |
-| **Mechanism** | Coupling to BPG | Phase-lock within aperture L |
-| **Result** | Energy-level splitting | Integer residuals in FIE |
+### 5.1.1 Projection Scaling and Representational Admissibility
 
-## 5.3 The Macroscopic Link: SQUIDs as Tunable Atoms
+Projection from compact trajectory space into observer space introduces a fixed scaling
+relationship between intrinsic trajectory structure and observed displacement.
 
-The dc SQUID provides a macroscopic analogue of atomic structure. In a SQUID, the
-external magnetic flux plays the same structural role as nuclear charge in an atom.
+Only trajectory classes whose intrinsic phase transport remains commensurate with this
+projection scale admit globally consistent representation.
 
-- As flux is ramped, the system is forced through discrete **winding sectors**
-- Sector transitions in a SQUID are the macroscopic equivalent of orbital
-  transitions in atoms
+The constant α therefore characterizes a universal projection scaling constraint. Its
+numerical value is empirical and serves as a structural parameter governing spectral
+splitting and transition scaling.
 
-The same BPG correction (κ₍DFT₎) that explains the Lamb shift also predicts subtle,
-measurable distortions in SQUID interference patterns. This makes the SQUID a
-**tunable laboratory** for probing the geometry of the vacuum.
+No microscopic mechanism is assumed or required; α characterizes projection geometry
+itself.
 
-## 5.4 The Continuum Limit: Optics and Bell Tests
+---
 
-The BPG governs not only locked matter but also unbound propagation. As demonstrated
-in:
+## 5.2 Unified Interpretation of Spectral Splitting Phenomena
+
+Two independently verified phenomena—
+
+- the Lamb shift in hydrogen, and  
+- the Geometric Occupancy Rule (GOR) residual structure—
+
+share the same structural origin: differential projection admissibility between
+distinct trajectory classes.
+
+| Feature | Lamb Shift | GOR Residual Structure |
+|--------|-------------|------------------------|
+| Scale | Single-electron trajectory class | Multi-trajectory shell structure |
+| Observable | Energy level splitting | Integer residual offsets |
+| Structural cause | Differential projection closure | Competing projection admissibility |
+| Manifestation | Frequency shift | Residual structure in ionization energies |
+
+In both cases, projection closure conditions distinguish trajectory classes that
+appear degenerate under reduced representations.
+
+Spectral splitting therefore reflects structural admissibility constraints, not
+introduced interaction terms.
+
+---
+
+## 5.3 Macroscopic Projection Closure: Flux Quantization
+
+Macroscopic systems exhibit the same closure structure.
+
+In superconducting loops (dc SQUIDs), flux quantization reflects the requirement that
+the collective trajectory class of the superconducting phase field remains globally
+consistent under projection.
+
+Discrete flux states correspond to distinct projection-admissible trajectory classes.
+
+Sector transitions occur when external parameters alter admissibility conditions.
+
+The dc SQUID therefore provides a macroscopic realization of the same projection-closure
+structure governing atomic spectra.
+
+---
+
+## 5.4 Continuum Limit and Coherence Degradation
+
+Projection closure can degrade when trajectory structure loses representational
+containment within the admissible projection domain.
+
+This degradation is quantified empirically in the coherence verification repositories:
 
 - [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)
 - [`bell-correlations-joint-phase-dynamics`](https://github.com/arwells-research/bell-correlations-joint-phase-dynamics)
 
-the transition from quantum correlations to classical decoherence is a **spectral
-shift** driven by T-frame phase diffusion D.
+As representational containment weakens:
 
-In the limit D → 0, the manifold reaches the **continuum limit**, where standard
-quantum-mechanical predictions and the Tsirelson bound emerge as the geometric ceiling
-of the theory.
+- correlation strength decreases,
+- interference visibility degrades, and
+- spectral structure broadens.
 
-## 5.5 Final Summary of the Verification Stack
+In the limit of perfect containment, projection closure remains fully admissible and
+standard quantum-mechanical predictions emerge as the admissible projection regime.
 
-For researchers seeking to validate these claims, the verification path is explicit
-and reproducible:
+Standard quantum mechanics therefore corresponds to the closure-admissible limit of
+the projection structure.
 
-- **Atomic residuals:**  
-  Use [`gor-caf`](https://github.com/arwells-research/gor-caf) with NIST data to
-  reproduce the +3 / −4 residuals.
+---
 
-- **Spatial limits:**  
-  Use [`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model) to
-  observe the Period-5 decoherence at 3.8 a₀.
+## 5.5 Unified Verification Stack
 
-- **Coherence envelopes:**  
-  Use [`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion)
-  and [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)
-  to verify the statistical origin of interference.
+The projection-closure framework yields a reproducible verification stack spanning
+multiple physical regimes.
 
-- **Foundational tests:**  
-  Use [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) to
-  observe how detection jitter and diffusion degrade the Tsirelson bound.
-  
+Each step independently validates closure-admissibility structure using public data.
+
+### Atomic residual structure
+
+Use [`gor-caf`](https://github.com/arwells-research/gor-caf) to reproduce integer
+residual structure from NIST ionization energy data.
+
+This verifies shell-level projection admissibility structure.
+
+### Radial containment boundary
+
+Use [`gor-kernel-model`](https://github.com/arwells-research/gor-kernel-model) to
+verify the existence of the radial containment boundary L and the Period-5 closure
+failure.
+
+This validates spatial projection containment limits.
+
+### Coherence envelope structure
+
+Use [`mzi-phase-diffusion`](https://github.com/arwells-research/mzi-phase-diffusion)
+and [`hom-phase-diffusion`](https://github.com/arwells-research/hom-phase-diffusion)
+to verify projection closure stability under statistical perturbation.
+
+This validates projection stability across propagation regimes.
+
+### Long-range correlation limits
+
+Use [`chsh-joint-phase`](https://github.com/arwells-research/chsh-joint-phase) to
+verify projection-closure preservation and degradation under detector timing
+constraints.
+
+This validates closure structure across extended observational separation.
+
+---
+
+## 5.6 Synthesis
+
+All verified phenomena—from atomic spectra to macroscopic flux quantization and
+correlation structure—are unified by a single structural principle:
+
+**Observable discreteness arises from projection-closure admissibility.**
+
+Discrete spectra do not require additional dynamical assumptions.
+
+They arise because only certain trajectory classes admit globally consistent
+representation under projection into the observer frame.
+
+The constants α and L characterize universal projection scaling and containment
+constraints governing representational admissibility across domains.
+
+The empirical verification stack demonstrates that these constraints operate
+consistently across atomic, optical, and macroscopic physical systems.
