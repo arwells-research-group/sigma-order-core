@@ -1,189 +1,189 @@
 # A Second Motivating Example: Forced Extremality in a Continuous Carrier
 
 This example illustrates the same Σ₂ forcing pattern as the discrete case, but in
-a **continuous, geometric setting**. The goal is to show that Σ₂ is not a graph
-artifact — it applies equally to phase and transport problems.
+a continuous geometric carrier. The goal is to show that Σ₂ is not specific to graphs
+or combinatorics. It applies equally to phase transport and geometric compatibility problems.
 
 ---
 
-## The setup: a phase-based observable
+## The setup: a projection observable
 
-Suppose we study a real-valued observable \( O \) defined on configurations \( C \),
-where:
+Suppose we study a real-valued observable O defined on configurations C, where:
 
-- \( O \) measures a **degree of mismatch** or **spread** (e.g., variance,
-  dispersion, or degeneracy),
-- smaller values of \( O \) correspond to *tighter coherence*,
-- larger values correspond to *greater differentiation*.
+- O measures a degree of mismatch, dispersion, or degeneracy,
+- smaller values of O correspond to tighter coherence,
+- larger values correspond to greater differentiation.
 
-We want to know:
+We want to determine:
 
-> **Can the system avoid developing a nonzero extremal value of \( O \),
-> or must a threshold be crossed?**
+Can the system remain indefinitely in a non-extremal regime, or must an extremal threshold be crossed?
 
-Assume again that \( O \) is a **projection observable**: it forgets some of the
-underlying transport or phase structure.
+Assume that O is a projection observable. That is, it is derived from a richer carrier structure
+and does not retain full structural information.
 
 ---
 
-## The carrier: phase transport with finite capacity
+## The carrier: phase transport with finite closure capacity
 
-Introduce a **carrier space** \( S \):
+Introduce a carrier space S:
 
-- elements of \( S \) represent fine-grained phase or transport states,
-- there is a notion of **pairwise phase compatibility**,
-- and a symmetry action given by **global phase shifts** or **reparameterizations**.
+- elements of S represent fine-grained phase or transport configurations,
+- there exists a notion of compatibility between carrier configurations,
+- symmetry actions exist that preserve compatibility structure.
 
-For concreteness, think of:
-- phase angles on a circle,
-- or parallel-transport phases along loops.
+Examples include:
 
-There is a crucial structural fact:
+- phase angles on a compact manifold,
+- parallel transport phases along loops,
+- holonomy structure on closed transport paths.
 
-> The carrier has a **finite admissible capacity** for coherent transport.
+There is a critical structural constraint:
 
-Examples of capacity:
-- finite total phase volume,
-- bounded winding number,
-- bounded curvature or holonomy budget.
+The carrier admits only a finite total closure-compatible structure.
 
----
+This may appear as:
 
-## Step 1 — What failure of the extremum would imply
+- bounded holonomy structure,
+- finite admissible winding complexity,
+- finite compatible transport structure.
 
-Assume, for contradiction, that the observable \( O \) never becomes large.
-
-That is:
-- phase mismatch never accumulates,
-- degeneracy is never lifted,
-- dispersion remains uniformly small.
-
-In many transport problems, this implies:
-
-> **A large family of states must remain mutually phase-compatible.**
-
-In carrier language:
-- there exists a large set \( K \subset S \) of **phase-locked states**.
-
-This is again the **inverse bridge**:
-non-extremality forces hidden coherence.
-
-As before, this step is domain-specific and nontrivial.
+This is not a dynamical statement. It is a structural admissibility constraint.
 
 ---
 
-## Step 2 — Symmetry proliferates coherence
+## Step 1 — Consequence of extremum failure
 
-Now apply symmetry.
+Assume, for contradiction, that the observable O never enters its extremal regime.
 
-Global phase shifts, gauge reparameterizations, or frame changes act on \( S \)
-without changing compatibility.
+This means:
 
-So if \( K \) is a large phase-locked set, then:
-- each symmetry operation produces another phase-locked set of the same size.
+- dispersion remains uniformly bounded,
+- degeneracy remains unlifted,
+- compatibility remains uniformly high.
 
-Unless the symmetry action is trivial, these copies:
-- sweep out distinct regions of the carrier,
-- introduce new compatible transport relations.
+In many transport settings, this implies:
 
-Coherence **replicates across the carrier**.
+There exists a large subset K of S consisting of mutually compatible carrier configurations.
 
-This step is typically straightforward once symmetry is identified.
+This is the inverse bridge:
+
+Failure of extremum implies existence of a large closure-compatible configuration set.
+
+This step is domain-specific and must be justified independently.
 
 ---
 
-## Step 3 — Capacity is exceeded
+## Step 2 — Symmetry proliferates compatible structure
 
-Each phase-locked set consumes part of the carrier’s coherence capacity:
-- phase volume,
-- holonomy budget,
-- admissible transport complexity.
+Now consider symmetry actions on the carrier.
 
-But the carrier’s total capacity is finite.
+Symmetry operations preserve compatibility.
+
+Therefore, applying symmetry operations to K produces additional compatible subsets.
+
+Unless symmetry is trivial, these subsets occupy distinct carrier regions.
+
+Compatibility structure proliferates under symmetry.
+
+This is purely a structural consequence of symmetry and compatibility preservation.
+
+---
+
+## Step 3 — Closure capacity is exceeded
+
+Each compatible subset occupies part of the carrier's admissible closure capacity.
+
+Because total closure capacity is finite, sufficiently many compatible subsets cannot coexist.
 
 If:
-- the original coherent set is large enough, and
-- symmetry produces enough distinct copies,
 
-then the union of all symmetry-related phase-locked sets exceeds the
-carrier’s admissible capacity.
+- the original compatible set is sufficiently large, and
+- symmetry produces sufficiently many distinct compatible copies,
 
-This is a **structural violation**, not a dynamical instability.
+then the total compatible structure exceeds admissible closure capacity.
+
+This produces a structural inconsistency.
+
+No admissible carrier configuration can realize this structure.
 
 ---
 
 ## Step 4 — Structural refusal
 
-We again reach a contradiction.
+We have reached a contradiction.
 
-The assumption that the observable never reaches its extremal regime implies
-a configuration that cannot exist in the carrier.
+The assumption that the observable never reaches its extremal regime implies existence of a carrier configuration that is structurally inadmissible.
 
-So the assumption must be rejected.
+Therefore, the assumption must be rejected.
 
-> **The non-extremal alternative is inadmissible.**
+The non-extremal regime is not closure-admissible.
 
-Therefore, the observable must cross the extremal threshold:
-- degeneracy must lift,
-- dispersion must appear,
-- phase mismatch must accumulate.
+The observable must enter an extremal regime.
 
-In settings where the refused coherence is not eliminated outright but redistributed across scales,
-this same structural refusal appears dynamically as a finite energetic penalty, as formalized by the
-Closure Energy Principle (CEP).
+Extremality is forced by closure admissibility constraints, not by optimization or dynamics.
+
+In settings where closure inconsistency is redistributed rather than eliminated,
+this same closure deviation appears as measurable structure, as described by the Closure Energy Principle (CEP).
 
 ---
 
 ## What this example demonstrates
 
-The forcing logic is identical to the discrete case:
+The forcing logic follows the same structural pattern as in the discrete case:
 
-1. **Non-extremality ⇒ large phase coherence**
-2. **Coherence + symmetry ⇒ proliferation**
-3. **Proliferation ⇒ capacity violation**
-4. **Violation ⇒ refusal ⇒ extremum forced**
+1. Failure of extremum implies large compatible carrier structure
+2. Compatibility structure proliferates under symmetry
+3. Proliferation exceeds admissible closure capacity
+4. Closure inconsistency forces refusal of the non-extremal regime
 
-Nothing about graphs was essential.
+No graph-specific assumptions were required.
 
 ---
 
 ## Why this matters
 
-Many physical problems involve:
-- phase locking,
-- transport consistency,
-- holonomy constraints,
-- or coherence budgets.
+Many physical observables arise as projections of richer carrier structure.
 
-Σ₂ provides a way to reason about **existence of breakdowns or transitions**
-without computing detailed dynamics.
+When closure admissibility constraints exist, certain projected configurations cannot persist.
 
-It tells you *why* a perfectly coherent regime cannot persist indefinitely,
-even before you know *how* it breaks.
+Σ₂ provides a framework for identifying closure-admissibility limits without computing detailed dynamics.
+
+It explains why some reduced representations cannot remain structurally consistent.
 
 ---
 
 ## Relationship to CEP
 
-This example is structurally compatible with the **Closure Energy Principle (CEP)**:
+The Closure Energy Principle (CEP) describes how closure deviation appears in observable structure.
 
-- CEP provides a **mechanism-level description** of how closure stress accumulates
-  across scales.
-- Σ₂ provides the **admissibility logic** that explains why some perfectly coherent
-  alternatives must be refused altogether.
+CEP is constructive and domain-specific.
 
-The two play complementary roles.
+Σ₂ is classificatory and domain-agnostic.
+
+Relationship:
+
+- Σ₂ determines admissibility
+- CEP describes observable manifestation of closure deviation
+
+Σ₂ does not depend on CEP.
+
+CEP does not define Σ₂.
 
 ---
 
 ## Where to go next
 
-- For the formal forcing schema, see  
-  **Structural Extremum Forcing (Σ₂)**.
-- For scope limits, see  
-  **Σ₂ Scope Boundaries**.
-- For a decision procedure, see  
-  **Σ₂ Practitioner Checklist**.
+For the formal forcing schema, see:
 
-This example shows that Σ₂ applies equally well to continuous and discrete carriers.
-Its power lies in the *shape of the argument*, not the substrate.
+Structural Extremum Forcing (Σ₂)
+
+For scope limits, see:
+
+Scope Boundaries
+
+For diagnostic entry, see:
+
+Practitioner Checklist
+
+This example demonstrates that Σ₂ forcing applies equally to continuous and discrete carrier structures.
+Its validity depends on projection-closure admissibility, not the substrate.
