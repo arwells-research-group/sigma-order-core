@@ -1,129 +1,243 @@
-# dft-core-theory/sigma2-framework/checklist.md
-
 # Σ₂ Practitioner Checklist
 
-Use this checklist to decide whether a problem is “Σ₂-shaped” and, if so, what to do next.
+Use this checklist to determine whether a problem is Σ₂-shaped—that is, whether it concerns **projection-closure admissibility** rather than dynamical computation.
 
 ---
 
-## Step 0 — What are you trying to prove?
+## Step 0 — Clarify the objective
 
-A Σ₂-style goal is usually one of:
+A Σ₂-style objective typically asks one of the following:
 
-- An extremum/threshold crossing must exist (even if its magnitude is unknown)
-- A reduced model is inadmissible under continuation/intervention/re-projection
-- A non-extremal alternative leads to structural contradiction
+- Is a reduced or projected representation structurally admissible?
+- Does a representation remain closure-consistent under continuation, intervention, or re-projection?
+- Does symmetry proliferation force structural inconsistency under projection?
+- Does assuming admissibility of a representation lead to contradiction?
 
-If you are trying to compute constants, fit parameters, or derive detailed dynamics,
-you are likely in Σ₁ territory, not Σ₂.
+If your goal is instead to:
+
+- compute constants,
+- fit parameters,
+- derive detailed dynamics, or
+- simulate evolution,
+
+then the problem is likely Σ₁ (constructive or dynamical), not Σ₂ (admissibility).
 
 ---
 
-## Step 1 — Projection observable
+## Step 1 — Identify the projection structure
 
 Question:
-- Do you have a real-valued observable O : C -> R that is a **projection**
-  of richer structure (i.e., it forgets information that might matter)?
+
+Do your observables arise from projection of richer carrier structure?
+
+Formally, can you identify:
+
+- Carrier space: C  
+- Representation space: R  
+- Projection mapping: P : C → R  
+
+such that R loses information present in C?
 
 If no:
-- Σ₂ may still apply, but the framing is less natural. Consider other proof modes.
+
+Σ₂ may not apply, because admissibility is defined relative to projection.
 
 If yes:
-- proceed.
+
+Proceed.
 
 ---
 
-## Step 2 — Structural carrier and symmetry
-
-Questions:
-- Can you describe a carrier space S and a surjection pi : S -> C such that O o pi
-  depends only on relational features in S?
-- Is there a natural symmetry group G acting on S that preserves those relational features?
-
-If no:
-- Σ₂ forcing is unlikely to be the right tool.
-
-If yes:
-- proceed.
-
----
-
-## Step 3 — Identify coherence
+## Step 2 — Identify admissible continuation or symmetry actions
 
 Question:
-- If the extremum/threshold fails, what “high coherence” configuration would have to exist?
-  (Clique-like structure, phase-locking, degenerate mode family, coherent circulation set, etc.)
 
-If you cannot name a candidate coherence configuration:
-- you do not yet have the inverse bridge target; stop and reframe.
+Does the carrier space admit continuation, intervention, or symmetry actions
 
-If you can:
-- proceed.
+T : C → C
+
+that preserve carrier validity?
+
+Examples include:
+
+- time evolution,
+- symmetry transformations,
+- protocol continuation,
+- geometric continuation,
+- boundary extension.
+
+If no admissible continuation exists:
+
+Projection-closure admissibility cannot be tested. Σ₂ does not apply.
+
+If yes:
+
+Proceed.
 
 ---
 
-## Step 4 — Inverse bridge (domain-specific)
+## Step 3 — Identify the closure requirement
 
 Question:
-- Can you plausibly prove (or find in the literature) an “inverse theorem” of the form:
-  non-extremality implies existence of a large coherence configuration K?
 
-If no:
-- you may still do diagnostics, but do not claim forcing.
+What closure condition must carrier configurations satisfy to remain structurally valid?
 
-If yes:
-- proceed.
+Examples:
+
+- phase continuity,
+- topological closure,
+- normalization,
+- boundedness,
+- symmetry invariance,
+- compactness,
+- finite capacity.
+
+This closure requirement defines admissibility at the carrier level.
+
+If closure conditions are unclear:
+
+Clarify the carrier structure before proceeding.
+
+If closure conditions are clear:
+
+Proceed.
 
 ---
 
-## Step 5 — Proliferation check (symmetry, overlap, expansion)
-
-Questions:
-- Does the symmetry action generate many translates of K?
-- Can overlap between copies be controlled?
-- Can you exhibit a finite proliferation set H with orbit/overlap bounds?
-
-If no:
-- Σ₂ forcing may fail here; consider alternative forcing mechanisms.
-
-If yes:
-- proceed.
-
----
-
-## Step 6 — Global capacity
+## Step 4 — Identify candidate inadmissible representations
 
 Question:
-- Is there a finite global bound Cap(S) on the total compatible structure that can exist
-  in the carrier (edges, volume, winding complexity, entropy, etc.)?
 
-If no:
-- a capacity-violation contradiction may not be available.
+Is there a representation r in R whose admissibility is uncertain?
+
+Specifically, does there exist uncertainty whether:
+
+- a carrier configuration c exists such that P(c) = r, and
+- c remains closure-consistent under admissible continuation?
+
+If no such representation exists:
+
+Σ₂ forcing does not apply.
 
 If yes:
-- proceed.
+
+Proceed.
 
 ---
 
-## Step 7 — Conclude refusal / forcing
+## Step 5 — Construct the inverse bridge (domain-specific)
 
-If Steps 1–6 succeed, you have a Σ₂ forcing chain:
+Question:
 
-Inverse bridge (A) → Proliferation (B′) → Capacity violation → Refusal of non-extremal alternative
+Assuming admissibility of r, can you construct or infer a carrier configuration c such that:
+
+P(c) = r
+
+This step is domain-specific and often requires:
+
+- reconstruction,
+- lifting,
+- inverse theorem logic,
+- structural embedding,
+- coherence identification.
+
+If no inverse bridge exists:
+
+Σ₂ forcing cannot proceed.
+
+If yes:
+
+Proceed.
+
+---
+
+## Step 6 — Apply continuation or symmetry proliferation
+
+Question:
+
+Under admissible continuation or symmetry actions T, does the carrier configuration generate a family:
+
+T(t₁)c, T(t₂)c, ...
+
+whose projection produces structurally incompatible representations, or whose carrier-level closure fails?
+
+This is the proliferation step.
+
+If continuation preserves closure for all admissible actions:
+
+Representation may be Σ₂-admissible.
+
+If continuation produces closure violation:
+
+Proceed.
+
+---
+
+## Step 7 — Test projection-closure stability
+
+Question:
+
+Does projection of proliferated carrier configurations remain within a single closure-consistent representational class?
+
+If projection produces:
+
+- inconsistency,
+- structural divergence,
+- closure violation,
+- or representational instability,
+
+then the representation is Σ₂-inadmissible.
+
+If projection remains closure-consistent:
+
+Representation may be Σ₂-admissible.
+
+---
+
+## Step 8 — Conclude admissibility or refusal
+
+If admissible carrier configurations exist and remain closure-consistent:
 
 Conclusion:
-- a threshold extremum exists, or
-- the reduced configuration is inadmissible under the tested transformations.
+
+Representation is Σ₂-admissible.
+
+If all carrier configurations mapping to the representation violate closure under admissible continuation:
+
+Conclusion:
+
+Representation is Σ₂-inadmissible.
+
+This is formal Σ₂ refusal.
 
 ---
 
 ## Output discipline
 
-When writing results:
+When documenting results:
 
-- If you only have Steps 1–3: call it “Σ₂ framing” (no forcing).
-- If you have Steps 1–4: call it “Σ₂ inverse bridge candidate” (still no forcing).
-- If you have Steps 1–6: call it “Σ₂ forcing candidate” (pending clean write-up).
-- Only after a complete chain is written and checked: call it “Σ₂ forcing result”.
+- If Steps 1–3 are complete: call it "Σ₂ framing"
+- If Steps 1–5 are complete: call it "Σ₂ admissibility analysis"
+- If Steps 1–7 are complete: call it "Σ₂ admissibility determination"
+- Only after full closure analysis: call it "Σ₂ admissibility result"
 
-This keeps the ecosystem honest and prevents overscoping.
+Do not claim forcing or refusal without complete closure analysis.
+
+This preserves methodological rigor and prevents overextension.
+
+---
+
+## Interpretation note
+
+In some domains, Σ₂ inadmissibility manifests as:
+
+- extremum enforcement,
+- quantization,
+- threshold existence,
+- structural discreteness.
+
+These are consequences of projection-closure admissibility—not the defining principle.
+
+Σ₂ classifies admissibility.
+
+It does not generate dynamics.
