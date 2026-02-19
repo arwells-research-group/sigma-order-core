@@ -2,129 +2,221 @@
 
 ## 2.1 The Principle of Topological Closure
 
-In Chapter 1, we established that physical entities are displacements from the Unit Datum. For a displacement to be stable (that is, to persist as a “particle” or “state”), the T-frame motion must be **topologically closed**.
+In Chapter 1, we established that physical entities are displacements from the Unit Datum. For a displacement to persist as a stable physical state, the underlying T-frame motion must be **topologically closed**.
 
-If a trajectory in the T-frame does not close upon itself, the phase Θ becomes multi-valued at a single point in the S-frame. This produces destructive interference and causes the displacement to relax back into the unit vacuum.
+The T-frame describes motion on compact manifolds. On such manifolds, phase must remain globally consistent. If a trajectory fails to close, the phase Θ becomes multi-valued under projection into the S-frame. This destroys global coherence, and the displacement relaxes toward the Unit Datum.
+
+Topological closure is therefore the stability condition for persistent physical structure.
+
+This closure requirement is geometric, not dynamical. It arises from the admissibility of mappings between compact T-frame topology and extensive S-frame projection.
+
+---
 
 ### 2.1.1 The Winding Condition
 
-Stability requires that the total phase change around any closed T-frame loop γ is an integer multiple of 2π:
+Let Θ : Λ → ℳₜ be the phase map on a compact T-frame manifold ℳₜ, where Λ is the scalar motion parameter.
 
-ΔΘ = ∮γ (dΘ / dλ) dλ = 2π·n, n ∈ {0, ±1, ±2, …}
+Stability requires that the total phase change around any closed trajectory γ satisfies:
 
-The integer n defines the **Winding Sector**. Each winding sector corresponds to a distinct physical state with a discrete energy.
+ΔΘ = ∮γ dΘ = 2π n, n ∈ ℤ
+
+The integer n is the **winding number**, and defines the **winding sector**.
+
+Each winding sector represents a distinct admissible motion class. Because winding number is a topological invariant, transitions between sectors require global reconfiguration rather than continuous deformation.
+
+Discrete winding sectors therefore appear in the S-frame as discrete physical states.
+
+Quantization is thus a consequence of topological admissibility.
 
 ---
 
 ## 2.2 Macroscopic Manifestation: the dc SQUID
 
-The clearest macroscopic laboratory for observing winding sectors is the **dc SQUID** (Superconducting Quantum Interference Device).
+Macroscopic quantum interference systems provide direct physical realization of winding sectors.
 
-### 2.2.1 Flux as Projection
+The clearest example is the **dc SQUID (Superconducting Quantum Interference Device)**.
 
-In a superconducting loop, the T-frame phase Θ is coherent across the entire device. When an external magnetic flux Φ_ext is applied, the T-frame background is effectively strained or tilted.
+---
 
-The S-frame registers this strain as magnetic flux, but the T-frame must preserve its integer winding n. This requirement appears experimentally as fluxoid quantization:
+### 2.2.1 Flux as Projection of Phase Closure
 
-Φ_total = Φ_ext + L·I = n·Φ₀
+In a superconducting loop, the T-frame phase Θ remains coherent across the entire system.
 
-where Φ₀ = h / (2e) is the flux quantum.
+External magnetic flux modifies the global phase configuration. Because phase must remain single-valued, the winding condition enforces:
 
-### 2.2.2 Sector Selection and Energy
+Φ_total = Φ_ext + L·I = n Φ₀
 
-For a given external flux, the SQUID occupies the winding sector n that minimizes the total T-frame curvature (energy). In standard circuit language, this appears as hopping between “fluxoid branches.”
+where:
 
-In DFT, the energy of a winding sector n is written schematically as:
+Φ₀ = h / (2e)
 
-E_T(n) = (1/2)·L·I_circ² + E_J·(1 − cos δ)
+is the flux quantum.
 
-When two adjacent sectors n and n+1 have equal energy, the system is at a **Phase-Switching Point**. At these points, the Background Phase Geometry (BPG) produces measurable distortions in the S-frame interference pattern.
+Flux quantization is therefore the S-frame projection of integer winding closure in the T-frame.
+
+This relationship does not depend on microscopic particle trajectories, but on global phase admissibility.
+
+---
+
+### 2.2.2 Winding Sector Selection and Projection Energy
+
+Each winding sector corresponds to a distinct admissible phase configuration.
+
+Maintaining closure requires curvature in phase structure. This curvature projects into the S-frame as measurable energy.
+
+The projection energy associated with winding sector n may be written schematically:
+
+E_Σ(n) = E_winding(n) + E_projection(n)
+
+Transitions between sectors occur where adjacent winding configurations have equal projection energy.
+
+These transitions are experimentally observed as fluxoid switching and interference modulation.
+
+The existence of discrete winding sectors is therefore empirically established.
 
 ---
 
 ## 2.3 Microscopic Manifestation: Atomic Orbitals
 
-The same winding logic applies to the “electron” in an atom. In DFT, the electron is not treated as a point particle but as a **global winding class** of the T-frame.
+The same closure structure governs atomic systems.
 
-### 2.3.1 Orbital Winding
+In Σ-Order theory, the electron is represented not as a localized point object but as a **global winding configuration of phase in the T-frame**.
 
-An atomic orbital is a T-frame trajectory that has wrapped around the nuclear region.
-
-- The **principal quantum number (n)** corresponds to the primary radial winding.
-- The **angular quantum number (ℓ)** corresponds to transverse winding classes.
-
-Because the T-frame manifold is compact, the electron cannot exist between winding classes. The energy gaps between orbitals represent the geometric separation between distinct topological windings.
-
-### 2.3.2 The Degeneracy Fallacy
-
-Standard quantum mechanics predicts that states such as 2S and 2P should be energetically degenerate in a pure Coulomb field. Experimentally, however, they are not (the Lamb shift).
-
-DFT explains this without invoking vacuum fluctuations:
-
-1. Different winding classes (S vs P) follow different geometric paths in the T-frame.
-2. Even when they project into the same spatial shell, their intrinsic T-frame curvatures differ.
-3. Therefore, their S-frame energy projections must differ.
+The orbital observed in the S-frame is the projection of this winding structure.
 
 ---
 
-## 2.4 Summary of Winding Mechanics
+### 2.3.1 Orbital Structure as Winding Classes
+
+Atomic orbitals correspond to distinct winding sectors.
+
+The principal quantum number n corresponds to primary winding number.
+
+Angular quantum numbers correspond to transverse winding topology and projection symmetry.
+
+Because winding number is topologically quantized, intermediate configurations are not admissible.
+
+Discrete atomic energy levels therefore arise from admissible winding structure.
+
+Quantization reflects geometric admissibility rather than imposed quantization rules.
+
+---
+
+### 2.3.2 Resolution of Apparent Degeneracy
+
+Local dynamical models may predict degeneracy between certain orbital states.
+
+Experimentally, small but reproducible splittings occur.
+
+Within Σ-Order theory, this follows directly from geometric structure.
+
+Distinct winding classes couple differently to background projection curvature.
+
+Even when spatial projections appear similar, underlying T-frame topology differs.
+
+These differences produce distinct projection energies.
+
+Observed spectral splitting therefore reflects geometric admissibility of winding structure.
+
+---
+
+## 2.4 Summary of Winding Sector Structure
 
 | Property | SQUID (Macroscopic) | Atom (Microscopic) |
 |--------|---------------------|--------------------|
-| Winding entity | Supercurrent (Cooper pairs) | Electron trajectory |
-| Quantized unit | Flux quantum Φ₀ | Action quantum h |
-| Stability logic | Fluxoid quantization | Orbital winding class |
-| Observable | Voltage / current modulation | Spectral lines |
+| Winding entity | Superconducting phase | Orbital phase structure |
+| Quantized invariant | Winding number n | Winding number n |
+| Stability condition | Fluxoid closure | Orbital closure |
+| Observable projection | Current / voltage interference | Spectral energy levels |
 
-In Section 2.5 we address the most subtle aspect of winding mechanics: the non-zero curvature of the vacuum itself. If the T-frame were perfectly flat, winding sectors would project linearly. However, topological closure on a compact manifold necessarily introduces curvature, which we identify as the Background Phase Geometry.
+In both cases, quantization arises from topological closure on compact manifolds.
+
+Quantization is therefore structural, not imposed.
 
 ---
 
 ## 2.5 Background Phase Geometry (BPG)
 
-In conventional physics, the vacuum is often treated as passive and structureless. In Dual-Frame Theory, the vacuum is the **Unit Datum (1/1)** in a state of isotropic expansion. Because this expansion connects a compact T-frame to an extensive S-frame, it carries intrinsic geometric tension.
+The Unit Datum represents coherent scalar progression.
 
-### 2.5.1 The Necessity of Non-Flatness
+Projection from compact T-frame topology into extensive S-frame structure introduces intrinsic geometric constraints.
 
-On a compact manifold (such as a torus), any winding trajectory that is not a geodesic must experience curvature. The **Background Phase Geometry (BPG)** is defined as the intrinsic curvature of the T-frame that exists even in the absence of matter or applied fields.
+These constraints define the **Background Phase Geometry (BPG)**.
 
-The BPG is characterized by a small, universal constant κ_DFT that acts as a geometric floor for all energy calculations.
+The BPG governs admissible projection structure and energy relationships.
 
-### 2.5.2 The Lamb Shift as a BPG Manifestation
+---
 
-The most prominent empirical signature of the BPG is the Lamb shift in hydrogen. Dirac theory predicts degeneracy between the 2S₁⁄₂ and 2P₁⁄₂ states, but experimentally they differ by approximately 1057 MHz.
+### 2.5.1 Intrinsic Projection Curvature
 
-In DFT, this splitting arises from **differential curvature coupling**:
+Closure on compact manifolds generally requires curvature in phase configuration.
 
-1. S and P winding sectors have different topological profiles.
-2. Radial-heavy (S) and angular-heavy (P) windings couple differently to the BPG.
-3. This curvature mismatch lifts the degeneracy and projects a measurable energy difference into the S-frame.
+This curvature exists even in the absence of localized structure.
 
-### 2.5.3 The Coherence Aperture (L)
+It is a property of admissible projection geometry.
 
-The BPG has a finite spatial reach. Analysis of the periodic table identifies a critical **coherence aperture** at:
+This intrinsic curvature scale is denoted:
+
+κ_Σ
+
+κ_Σ is a universal structural parameter governing projection relationships.
+
+It does not represent a force field, but a geometric property of admissible mappings between T-frame and S-frame.
+
+---
+
+### 2.5.2 Empirical Manifestation in Atomic Structure
+
+Background curvature produces measurable differences in projection energy between winding classes.
+
+This appears experimentally as spectral splitting between atomic states.
+
+The splitting reflects geometric differences in admissible winding structure.
+
+This interpretation is geometric and structural.
+
+It does not require auxiliary dynamical assumptions.
+
+---
+
+### 2.5.3 The Coherence Aperture L
+
+Empirical analysis identifies a characteristic projection coherence scale:
 
 L ≈ 3.8 a₀
 
 where a₀ is the Bohr radius.
 
-This aperture defines the effective range of T-frame phase-locking:
+This defines the effective coherence aperture of projection structure.
 
-- **Inside L:** Phase-lock is robust; winding sectors are strictly quantized (the “locked zone”).
-- **Outside L:** Background coherence weakens; winding fidelity degrades (the “decoherent zone”).
+Inside this aperture, winding coherence remains stable.
 
-The aperture L is a fundamental property of the BPG and is the primary mechanism behind the **Geometric Occupancy Rule (GOR)**.
+Beyond this aperture, projection coherence weakens.
+
+This scale governs admissibility of extended winding configurations.
 
 ---
 
-## 2.6 The S-Frame Projection of Curvature
+## 2.6 Projection Energy Structure
 
-The total energy of a system is expressed as the sum of intrinsic winding energy and background curvature coupling:
+The projection energy associated with a winding class arises from geometric admissibility requirements.
 
-E_total = E_winding(n) + E_BPG(κ, n)
+This may be expressed schematically as:
 
-This formulation allows DFT to account for:
+E_total(n) = E_winding(n) + E_BPG(κ_Σ, n)
 
-1. Atomic spectra, by identifying n with orbital winding.
-2. SQUID interference, by identifying n with fluxoid sectors.
-3. Chemical periodicity, by identifying when n exceeds the coherence aperture L.
+where:
+
+E_winding(n) arises from topological closure,
+
+and
+
+E_BPG arises from coupling to background projection curvature.
+
+These components are structural consequences of admissible projection geometry.
+
+They are not independent dynamical forces.
+
+Quantized physical structure therefore arises from admissible winding topology and geometric projection consistency.
+
+Quantization emerges as a structural necessity of phase closure on compact manifolds.
