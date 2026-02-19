@@ -1,85 +1,177 @@
-# dft-core-theory/sigma2-framework/scope-boundaries.md
-
 # Σ₂ Scope Boundaries
 
-This document makes explicit where Σ₂ applies and where it does not.
-The goal is to prevent misapplication and to maintain ecosystem coherence.
+This document defines where the Σ₂ framework applies and where it does not.
+
+The purpose is to ensure that Σ₂ is used only for projection-closure admissibility
+classification and is not misapplied as a general proof or modeling method.
 
 ---
 
-## Σ₂ territory (where the framework is intended to apply)
+## Σ₂ territory (projection-closure admissibility forcing)
 
-Σ₂ applies to **structural forcing problems** where:
+Σ₂ applies to structural forcing problems where projection-closure admissibility
+is the central issue.
 
-- The target quantity is a **projection observable** (derived from richer structure).
-- There is a natural **structural carrier** with a meaningful symmetry action.
-- Non-extremality implies existence of a **coherence configuration** (inverse bridge).
-- The coherence configuration **proliferates** under symmetry with controlled overlap.
-- Proliferation is incompatible with a **finite global capacity** bound.
-- The conclusion is **admissibility / refusal**, not a mechanistic construction.
+Specifically, Σ₂ applies when all of the following are present:
 
-Typical flavors:
-- discrete/combinatorial carriers (graphs, sets, codes),
-- spectral carriers where structure implies forbidden substructure,
-- phase or transport carriers where coherence replication creates a global contradiction.
+1. **Projection observable**
+
+   The observable representation is a projection of richer carrier structure,
+   meaning information relevant to closure may be lost in representation.
+
+2. **Carrier space with closure structure**
+
+   There exists an identifiable carrier space whose configurations possess
+   closure constraints and admissibility structure.
+
+3. **Inverse bridge**
+
+   Failure of admissibility or extremality in the projection representation implies
+   existence of a coherent carrier configuration.
+
+   This step is domain-specific.
+
+4. **Symmetry proliferation**
+
+   Carrier symmetry actions preserve closure structure and generate multiple
+   coherent configurations from a single one.
+
+5. **Finite closure capacity**
+
+   The carrier has a finite admissible closure capacity that bounds the total
+   compatible structure that can exist.
+
+6. **Closure inconsistency under proliferation**
+
+   Proliferated coherent configurations exceed closure capacity, making the
+   original projection representation inadmissible.
+
+When these conditions are satisfied, Σ₂ classifies the projection representation
+as closure-inadmissible.
 
 ---
 
-## Not Σ₂ (other forcing mechanisms that are genuinely different)
+## Typical carrier classes where Σ₂ applies
 
-Σ₂ is not intended to replace or subsume proof modes where extrema arise from:
+Σ₂ is naturally applicable to carriers including:
 
-- Variational/minimization arguments (energy minimizers, Euler–Lagrange structure)
-- Compactness and limit arguments (weak convergence, concentration compactness)
-- Probabilistic concentration and measure phenomena (Chernoff, martingales, LDP)
-- Dynamical attractors / stability basins (long-time dynamics, ergodic mechanisms)
-- Analytic continuation / maximum principles (PDE maximum principle families)
-- Purely local coercivity arguments without symmetry-driven proliferation
+- discrete compatibility carriers (graphs, codes, constraint systems),
+- phase or holonomy carriers with finite winding or coherence capacity,
+- spectral carriers with finite admissible mode structure,
+- transport carriers with finite closure or compatibility budget,
+- compact geometric carriers with bounded admissible structure.
 
-These may still be important in DFT work, but they are not Σ₂ forcing.
+In all cases, the defining feature is finite closure capacity under symmetry proliferation.
+
+---
+
+## What Σ₂ does not do
+
+Σ₂ does not construct physical models or compute dynamics.
+
+Σ₂ does not:
+
+- determine numerical constants,
+- derive dynamical evolution laws,
+- construct explicit minimizing configurations,
+- replace empirical validation,
+- or perform structural reconstruction.
+
+Σ₂ classifies representational admissibility only.
+
+---
+
+## Not Σ₂ (distinct forcing or construction mechanisms)
+
+The following mechanisms are not Σ₂ forcing:
+
+- variational minimization arguments,
+- Euler–Lagrange or action minimization derivations,
+- compactness and limit arguments,
+- probabilistic concentration arguments,
+- dynamical stability or attractor arguments,
+- analytic continuation or maximum principles,
+- purely local coercivity arguments without symmetry proliferation,
+- constructive structural reconstruction.
+
+These may be essential in the broader Σ-Order program but are not Σ₂ forcing.
 
 ---
 
 ## Mixed-mode problems
 
-Many real problems combine Σ₂ with other modes:
+Many problems involve multiple structural layers.
 
-- Σ₂ may establish that some extremum/transition exists (admissibility).
-- Σ₁ mechanisms may determine magnitude, scaling, or functional form.
-- Variational or analytic methods may be needed to construct explicit minimizers
-  or to estimate constants.
+Typical division of roles:
 
-When mixed, keep the division explicit:
-- “Σ₂ establishes existence/refusal”
-- “Σ₁ or analytic methods estimate magnitude”
+- Σ₂ determines projection-closure admissibility,
+- reconstruction or analytic methods determine structure or magnitude,
+- domain-specific mechanisms determine detailed behavior.
 
----
-
-## Practical boundary rule
-
-Treat a claim as Σ₂ only if you can point to:
-
-1) The inverse bridge (what coherence exists if the extremum is absent)
-2) A symmetry proliferation condition (how coherence replicates)
-3) A global capacity bound (what is violated)
-
-If any of the three is missing, classify the work as:
-- Σ₁ mechanism development, or
-- incomplete Σ₂ (diagnostic only), or
-- another proof mode entirely.
+Maintain explicit separation between admissibility classification and reconstruction.
 
 ---
 
-## Relationship to “diagnostics” tools
+## Diagnostic vs forcing distinction
 
-Many tools in the ecosystem implement **Σ₂ diagnostics** (tests for structural
-adequacy under intervention). Diagnostics can be valuable even without a forcing
-theorem.
+Σ₂ diagnostics test projection-closure stability under continuation,
+intervention, or re-projection.
 
-However:
-- Diagnostics are not the same as forcing.
-- Do not claim extremum existence unless an explicit Σ₂ forcing chain is supplied.
+Diagnostics may detect closure instability without providing a forcing proof.
 
-Use the terminology:
-- “Σ₂ diagnostic” for tests and refusal criteria
-- “Σ₂ forcing” only when the full A/B′/Cap chain is present
+Use the following terminology discipline:
+
+- "Σ₂ diagnostic" — closure stability test
+- "Σ₂ forcing candidate" — inverse bridge identified but proliferation chain incomplete
+- "Σ₂ forcing result" — complete inverse bridge + proliferation + capacity violation
+- "Σ₂ inadmissibility classification" — closure-inadmissibility established
+
+Do not claim Σ₂ forcing without a complete proliferation-capacity contradiction.
+
+---
+
+## Explicit boundary rule
+
+A claim qualifies as Σ₂ forcing only if all of the following are explicitly demonstrated:
+
+1. A projection observable with closure-relevant carrier structure  
+2. A valid inverse bridge linking non-admissibility to carrier coherence  
+3. A symmetry proliferation mechanism  
+4. A finite carrier closure capacity bound  
+5. A closure inconsistency under proliferation  
+
+If any element is missing, classify the work as:
+
+- Σ₂ diagnostic,
+- structural reconstruction,
+- domain-specific analysis,
+- or another proof mode entirely.
+
+---
+
+## Relationship to reconstruction and mechanism-level theory
+
+Σ₂ operates at the admissibility classification level.
+
+It does not determine the detailed form of admissible representations.
+
+Reconstruction, analytic derivation, or empirical validation must supply:
+
+- explicit structure,
+- numerical values,
+- or dynamical mechanisms.
+
+Σ₂ ensures structural admissibility constraints are respected.
+
+---
+
+## Summary
+
+Σ₂ is a projection-closure admissibility classification framework.
+
+It applies only when symmetry-driven proliferation of carrier coherence forces
+closure inconsistency in projection representation.
+
+It does not replace reconstruction, dynamics, or empirical validation.
+
+Its role is structural admissibility classification.
