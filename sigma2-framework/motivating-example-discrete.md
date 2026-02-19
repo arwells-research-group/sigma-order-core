@@ -1,107 +1,102 @@
 # A Motivating Example: When an Extremum Is Forced by Structure
 
 This example illustrates the Σ₂ forcing pattern using a simple, concrete carrier.
-The goal is not depth, but *clarity*: the argument should feel obvious once seen.
+The goal is not depth, but clarity: the argument should feel structurally inevitable once seen.
 
 ---
 
-## The setup: a bounded compatibility problem
+## The setup: a bounded projection-closure problem
 
-Suppose we study a real-valued observable \( O \) defined on configurations \( C \).
-We only care about a qualitative question:
+Suppose we study a real-valued observable O defined on configurations C.
+We care about a qualitative question:
 
-> **Can \( O \) remain bounded away from an extremal value, or must it cross a threshold?**
+Can O remain indefinitely bounded away from an extremal value, or must it cross a threshold?
 
-Assume \( O \) is a **projection observable**: it summarizes richer structure
-while discarding some relational information.
+Assume O is a projection observable: it summarizes richer carrier structure while discarding some relational information.
 
-To recover that information, introduce a **carrier space** \( S \) with:
+To represent that richer structure, introduce a carrier space S with:
 
-- elements representing fine-grained states,
-- a notion of **pairwise compatibility**,
-- and a symmetry action.
+- elements representing fine-grained carrier configurations,
+- a notion of pairwise compatibility,
+- and symmetry actions preserving compatibility.
 
-For concreteness, think of \( S \) as the vertices of a large graph.
+For intuition, S may be visualized as the vertex set of a large compatibility graph,
+though the argument applies to general carriers.
 
 ---
 
-## Compatibility and capacity
+## Compatibility and closure capacity
 
-Define a compatibility relation:
-- two vertices are compatible if they can coexist without conflict.
+Define compatibility as follows:
 
-A **coherence configuration** is then just:
-> a set of vertices that are *all* pairwise compatible.
+Two carrier configurations are compatible if they can coexist without violating closure constraints.
 
-In graph language, this is a **clique**.
+A coherence configuration is then:
 
-Crucially, the graph has a **global capacity**:
-- it has only finitely many edges,
-- or a bounded total compatibility budget.
+a set of carrier configurations that are mutually compatible.
 
-This is not negotiable; it is a structural limit of the carrier.
+In graph language, this corresponds to a clique.
+
+Crucially, the carrier has a finite closure capacity:
+
+there is a finite upper bound on the total compatible structure that can exist simultaneously.
+
+This is a structural admissibility constraint of the carrier, not a dynamical limitation.
 
 ---
 
 ## Step 1 — What failure of the extremum would imply
 
-Assume, for contradiction, that the observable \( O \) never reaches the expected
-extremal regime.
+Assume, for contradiction, that the observable O never reaches its extremal regime.
 
-In many problems, this forces hidden regularity:
-- if incompatibilities never accumulate,
-- then many elements must be mutually compatible.
+In many projection settings, this implies hidden carrier coherence:
+
+if incompatibility never accumulates in the observable representation,
+then many carrier configurations must remain mutually compatible.
 
 Translated to the carrier:
 
-> **If the extremum does not occur, there must exist a large clique
-> \( K \subset S \).**
+If extremality never occurs, there exists a large compatible subset K of S.
 
-This implication is domain-specific and nontrivial.
-It is the **inverse bridge** and the only creative step.
+This implication is the inverse bridge.
 
-For this example, we simply assume such a bridge holds.
-
----
-
-## Step 2 — Symmetry makes coherence proliferate
-
-Now apply symmetry.
-
-Suppose the graph admits a symmetry action:
-- relabeling vertices,
-- shifting indices,
-- or translating labels.
-
-Compatibility is preserved under this action.
-
-So if \( K \) is a large clique, then:
-- each symmetry operation produces another clique of the same size.
-
-Unless the symmetry is trivial, these copies:
-- are mostly distinct,
-- and introduce new compatible edges each time.
-
-Coherence **replicates**.
-
-This step is usually easy to check once symmetry is identified.
+It is domain-specific and must be justified independently.
+For this motivating example, we assume such a bridge exists.
 
 ---
 
-## Step 3 — Capacity is exceeded
+## Step 2 — Symmetry proliferates compatible structure
 
-Each large clique contributes many compatible pairs (edges).
+Now apply symmetry actions.
 
-But the graph has a **finite total edge budget**.
+Symmetry operations preserve compatibility.
+
+Therefore, applying symmetry to K produces additional compatible subsets of the same size.
+
+Unless symmetry is trivial, these subsets occupy distinct carrier regions.
+
+Compatible structure proliferates under symmetry.
+
+This is a purely structural consequence of symmetry and compatibility preservation.
+
+---
+
+## Step 3 — Closure capacity is exceeded
+
+Each compatible subset occupies part of the carrier’s admissible closure capacity.
+
+Because closure capacity is finite, sufficiently many compatible subsets cannot coexist.
 
 If:
-- the original clique is large enough, and
-- symmetry produces enough distinct copies,
 
-then the union of all symmetry-related cliques contains
-*more compatible edges than the graph can possibly support*.
+- the original compatible subset is sufficiently large, and
+- symmetry produces sufficiently many distinct compatible subsets,
 
-That is a **capacity violation**.
+then the total compatible structure exceeds admissible closure capacity.
+
+This produces a structural inconsistency.
+
+No admissible carrier configuration can realize such structure.
 
 ---
 
@@ -109,59 +104,58 @@ That is a **capacity violation**.
 
 We have reached a contradiction.
 
-The assumption that the extremum does not occur implies a configuration
-that exceeds the carrier’s admissible capacity.
+The assumption that extremality never occurs implies existence of a carrier configuration that is closure-inadmissible.
 
-So that assumption must be rejected.
+Therefore, the assumption must be rejected.
 
-> **The non-extremal alternative is inadmissible.**
+The non-extremal regime is not closure-admissible.
 
-Therefore, the extremum (or threshold crossing) **must occur**.
+Extremality is forced by closure admissibility constraints.
 
-No optimization was used.
-No dynamics were invoked.
-The conclusion follows purely from structure.
+No optimization principle or dynamical law was required.
+
+The conclusion follows entirely from projection-closure structure.
 
 ---
 
 ## What this example demonstrates
 
-The argument has a fixed shape:
+The argument follows a fixed structural pattern:
 
-1. **Non-extremality ⇒ large coherence**
-2. **Coherence + symmetry ⇒ proliferation**
-3. **Proliferation ⇒ capacity violation**
-4. **Violation ⇒ refusal ⇒ extremum forced**
+1. Failure of extremum implies large compatible carrier structure  
+2. Compatible structure proliferates under symmetry  
+3. Proliferation exceeds admissible closure capacity  
+4. Closure inconsistency forces refusal of the non-extremal regime  
 
-This is the Σ₂ pattern.
+This is the Σ₂ forcing pattern.
 
-Once recognized, it appears in many guises:
-- spectral problems,
-- combinatorial bounds,
-- coherence limits,
-- admissibility arguments.
+It applies across discrete and continuous carrier systems.
 
 ---
 
 ## Why this matters
 
-Σ₂ does not make inverse theorems easy.
-It makes **forcing arguments reusable** once an inverse step exists.
+Σ₂ does not construct inverse bridges.
 
-The value is pattern recognition:
-- knowing *what kind* of contradiction to look for,
-- and *what kind* of structure can close the argument.
+It provides the admissibility forcing logic that completes arguments once an inverse bridge exists.
+
+It enables structural admissibility classification without computing dynamics.
 
 ---
 
 ## Where to go next
 
-- For the formal forcing schema, see  
-  **Structural Extremum Forcing (Σ₂)**.
-- For applicability limits, see  
-  **Σ₂ Scope Boundaries**.
-- For a decision procedure, see  
-  **Σ₂ Practitioner Checklist**.
+For the formal forcing schema, see:
 
-This example is intentionally simple.
-Its job is to make the forcing logic unmistakable.
+Structural Extremum Forcing (Σ₂)
+
+For applicability limits, see:
+
+Scope Boundaries
+
+For diagnostic entry, see:
+
+Practitioner Checklist
+
+This example is intentionally minimal.
+Its purpose is to make the projection-closure forcing logic unmistakable.
