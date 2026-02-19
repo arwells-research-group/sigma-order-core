@@ -284,7 +284,8 @@ Repository | Scope | Domain | Status | DOI
 ✅ [`dft-lambda-consistency`](https://github.com/arwells-research/dft-lambda-consistency) | Global consistency analysis | Cosmology foundations | Conceptual paper | 10.5281/zenodo.18437571
 ✅ [`admissibility-beyond-minimal-surfaces`](https://github.com/arwells-research/admissibility-beyond-minimal-surfaces) | Scope limits | Network geometry | Conceptual paper | 10.5281/zenodo.18444241
 ✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Representational reconstruction | Quantum kinematics (Hilbert representability) | Paper repo | 10.5281/zenodo.18646222
- 
+✅ [`symmetry-induced-complexification`](https://github.com/arwells-research/symmetry-induced-complexification) | Symmetry-induced complexification | Quantum kinematics (complex structure from one-parameter symmetry) | Paper repo | 10.5281/zenodo.18692888
+   
 ---
 
 ## 5. Status of the Framework
@@ -441,7 +442,8 @@ with the underlying methodology documented in the core theory.
 |-----------|------------------------|----------------|--------|-----|
 | ✅ [`dual-frame-information-theory`](https://github.com/arwells-research/dual-frame-information-theory) | Dual-frame entropy | Representation learning | Validated | 10.5281/zenodo.18048533 |
 | ✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Hilbert representability from distinguishability axioms | Quantum kinematics (representational) | Paper repo | 10.5281/zenodo.18646222 |
- 
+| ✅ [`symmetry-induced-complexification`](https://github.com/arwells-research/symmetry-induced-complexification) | Complex structure from one-parameter symmetry | Quantum kinematics (representational) | Paper repo | 10.5281/zenodo.18692888 |
+
 ### 6.10 Arrow Diagnostics and Projection Asymmetry
 
 | Repository | Tests (ΣO Primitives) | Dataset/Domain | Status | DOI |
