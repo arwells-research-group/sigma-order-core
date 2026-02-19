@@ -1,5 +1,5 @@
 # Closure Energy Principle (CEP)  
-**A Unifying Geometric Origin of Logarithms, Renormalization, and Finite Anomalies**
+**Projection–Closure Enforcement as the Geometric Origin of Logarithms, Renormalization, and Finite Anomalies**
 
 ---
 
@@ -7,242 +7,299 @@
 
 **Closure Energy Principle (CEP):**
 
-> *Whenever a finite-scale subsystem is embedded in a background geometry whose transport structure is scale-free, non-compact, or otherwise incompatible with the subsystem’s intrinsic transport, enforcing relative closure incurs an energetic cost.  
-If the mismatch is distributed across scales, that cost accumulates logarithmically.*
+Whenever a finite-scale subsystem is represented within a background whose transport structure is scale-free, non-compact, or projection-incompatible, enforcing projection–closure consistency incurs an energetic cost.
 
-CEP provides a **single geometric explanation** for phenomena traditionally treated as unrelated:
+If the closure mismatch is distributed approximately uniformly across logarithmic scale intervals, the total closure-enforcement cost accumulates logarithmically.
+
+CEP provides a unified geometric interpretation consistent with phenomena traditionally treated separately, including:
+
 - Bethe logarithms and Lamb shifts  
 - Casimir energies  
 - Renormalization-group (RG) flow  
 - Scale anomalies  
 - Logarithmic gravitational corrections  
 
+These effects arise from enforcing projection–closure consistency between incompatible transport structures across scale.
+
 ---
 
 ## Scope and Role
 
-CEP is a **constructive, mechanism-level principle** within Dual-Frame Theory.
-It provides a geometric explanation for the appearance of logarithms and finite
-anomalies via scale-distributed closure costs.
+CEP is a **constructive, mechanism-level principle** within Σ-Order theory.
 
-CEP:
-- Operates at the level of **energy functionals and transport mismatch** (Σ₁-facing)
-- Does **not** introduce new ontology or dynamics
-- Does **not** replace quantum field theory, renormalization, or general relativity
+It operates at the level of:
 
-Relationship to **Σ₂**:
-CEP may supply a *domain-specific mechanism* (e.g., closure mismatch and capacity)
-that instantiates a Σ₂ forcing argument, but Σ₂ itself remains a **domain-agnostic
-admissibility and refusal framework**, not a mechanism.
+- projection–closure enforcement,  
+- transport compatibility across scale, and  
+- energetic consequences of closure mismatch.
 
+CEP does not introduce new ontology, dynamics, or degrees of freedom.
 
-These effects are not stochastic vacuum artifacts, but **deterministic penalties for enforcing geometric consistency (holonomy/closure)** across incompatible structures.
+Instead, it explains the energetic consequences of enforcing projection–closure consistency between subsystem transport and background transport.
 
----
+Relationship to Σ₂:
 
-## 1. General Geometric Setup
+- Σ₂ classifies whether representations are projection–closure admissible.
+- CEP describes the energetic cost of enforcing closure within admissible regimes.
+- Σ₂ governs admissibility structure.
+- CEP governs energetic manifestation of closure enforcement.
 
-Consider a **nested system**:
-
-### Subsystem \(S\)
-- Finite intrinsic scale \(\ell_S\)
-- Internal transport group \(G_S\)
-- Internal connection \(A_S\)
-- Finite stiffness (energy cost to distort transport)
-
-### Background \(B\)
-- Scale-free or incompatible geometry
-- Transport group \(G_B\)
-- Background connection \(A_B\)
-- No intrinsic cutoff over some scale window
-
-There exists an embedding:
-\[
-\iota : G_B \hookrightarrow G_S
-\]
-
-Define the **relative connection**:
-\[
-A_{\mathrm{rel}} = A_S - \iota(A_B) + A_{\mathrm{cpl}}
-\]
-
-where \(A_{\mathrm{cpl}}\) encodes unavoidable mismatch induced by the embedding.
+CEP operates only after admissibility is established.
 
 ---
 
-## 2. Closure as a Constraint (Not a Fluctuation)
+## 1. General Projection–Closure Setup
 
-Physical consistency requires **relative closure**:
+Consider a finite subsystem represented within a larger carrier background.
 
-\[
-\mathcal{H}_{\mathrm{rel}}(\gamma)
-\equiv
-\mathcal{P}\exp\oint_\gamma A_{\mathrm{rel}}
-\in Z(G_S)
-\]
+Subsystem properties:
 
-for all physically admissible loops \(\gamma\), where \(Z(G_S)\) is the center of \(G_S\).
+- finite intrinsic scale ℓ_S  
+- internal transport structure  
+- finite stiffness (finite resistance to closure distortion)
 
-This is a **constraint**, not a dynamical law.
+Background properties:
 
-When the background geometry frustrates this condition, the system must pay an **energy penalty** to enforce it.
+- scale-free or projection-incompatible transport structure  
+- no intrinsic cutoff over some scale window
 
----
+Projection consistency requires closure compatibility between subsystem transport and background transport.
 
-## 3. Refinement–Transport Noncommutativity
+When projection closure is incompatible, closure enforcement requires energetic compensation.
 
-Introduce a **refinement operator** \(R_\ell\), representing coarse-graining or resolution at scale \(\ell\).
-
-Define the **closure anomaly operator**:
-\[
-\mathfrak{A}(\ell) \equiv [R_\ell, A_{\mathrm{rel}}]
-\]
-
-This operator measures the failure of refinement and transport to commute.
-
-Define the **dimensionless closure stress density**:
-\[
-\mathcal{A}(\ell) \equiv \|\mathfrak{A}(\ell)\|
-\]
-
-Key observation:
-
-- If the background is scale-invariant (e.g. \(1/r\), conformal, gapless),
-- then \(\mathcal{A}(\ell)\) is approximately **constant per logarithmic scale**.
+This closure mismatch is structural, not stochastic.
 
 ---
 
-## 4. Scale-Distributed Closure Cost
+## 2. Closure as a Projection Consistency Constraint
 
-The total closure defect accumulated across scales is:
-\[
-\Delta\Phi
-=
-\int_{\ell_{\min}}^{\ell_{\max}}
-\mathcal{A}(\ell)\,\frac{d\ell}{\ell}
-\]
+Projection consistency requires that subsystem transport remains closure-consistent under background continuation and symmetry actions.
 
-If \(\mathcal{A}(\ell) \approx \mathcal{A}_0\), then:
-\[
-\Delta\Phi \sim \mathcal{A}_0 \ln\!\left(\frac{\ell_{\max}}{\ell_{\min}}\right)
-\]
+Closure failure manifests as projection inconsistency across continuation paths.
 
-This is the **universal geometric origin of logarithms**.
+Closure enforcement requires structural correction.
+
+This correction incurs energetic cost.
+
+CEP describes this closure-enforcement energy.
+
+This energy is not caused by fluctuations.
+
+It arises from projection–closure enforcement.
 
 ---
 
-## 5. Energy Cost Functional (Core CEP Statement)
+## 3. Projection Refinement and Closure Stress
 
-The physically relevant quantity is not the anomaly amplitude, but the **energy required to suppress it**.
+Introduce a projection refinement operator R(ℓ):
+
+R(ℓ): projection representation → projection representation at resolution ℓ
+
+Closure stress arises when projection refinement and transport continuation fail to commute.
+
+Define closure stress density A(ℓ) as the magnitude of projection–closure inconsistency at scale ℓ.
+
+Key structural property:
+
+If background transport is scale-free, closure stress density is approximately constant per logarithmic scale interval.
+
+That is:
+
+closure stress per scale octave is approximately constant.
+
+This scale-distributed closure stress is the geometric origin of logarithmic accumulation.
+
+---
+
+## 4. Scale-Distributed Closure Stress Accumulation
+
+Total closure mismatch accumulated across scale interval [ℓ_min, ℓ_max] is proportional to:
+
+integral over logarithmic scale of closure stress density.
+
+If closure stress density is approximately constant per logarithmic scale, total closure mismatch grows logarithmically with scale ratio.
+
+This logarithmic accumulation is geometric and structural.
+
+It does not depend on stochastic assumptions.
+
+It arises from projection–closure enforcement across scale.
+
+---
+
+## 5. Closure Energy Functional (Core CEP Statement)
+
+Closure enforcement requires energetic correction proportional to closure stress magnitude.
+
+Define closure energy functional:
+
+closure energy = intrinsic subsystem energy scale  
+× integral over logarithmic scale of  
+(weighting function × closure stress density squared)
+
+Interpretation:
+
+Closure energy represents the energy required to enforce projection–closure consistency across distributed scale mismatch.
+
+Quadratic dependence ensures:
+
+- positivity of energy cost  
+- correct scaling behavior  
+- compatibility with observed anomaly structure  
 
 CEP asserts:
 
-> **Closure costs energy proportional to the square of the anomaly**, weighted by the subsystem’s internal stiffness.
+Closure-enforcement energy is proportional to the integrated squared closure stress across scale.
 
-Define the **closure energy functional**:
-\[
-\Delta E
-=
-E_S
-\int_{\ell_{\min}}^{\ell_{\max}}
-W(\ell)\,\mathcal{A}^2(\ell)\,\frac{d\ell}{\ell}
-\]
-
-where:
-- \(E_S\) is the subsystem’s intrinsic energy scale
-- \(W(\ell)\) is an internal-geometry weighting (spinor structure, boundary conditions, topology)
-- the quadratic form ensures positivity and correct scaling
-
-This is the **Closure Energy Principle**.
+This is the Closure Energy Principle.
 
 ---
 
-## 6. Why Logarithms Are Ubiquitous
+## 6. Geometric Origin of Logarithms
 
-CEP explains why logarithms appear whenever:
+Logarithmic energy corrections arise whenever:
 
-1. The background is scale-free or conformal
-2. The subsystem has a fixed intrinsic scale
-3. Transport compatibility must be enforced
+- subsystem transport has intrinsic scale, and  
+- background transport is scale-free, and  
+- projection–closure consistency must be enforced.
 
-The logarithm is **not quantum-specific**.
-It is a **geometric inevitability** of enforcing closure across scales.
+Logarithmic accumulation is therefore a geometric inevitability of scale-distributed closure enforcement.
+
+It is not inherently quantum.
+
+It is structural.
 
 ---
 
-## 7. Mapping CEP to Known Physics
+## 7. Mapping CEP to Known Physical Regimes
 
-### 7.1 Lamb Shift (Quantum Electrodynamics)
-- Subsystem: electron spinor frame
-- Background: Coulomb \(1/r\) potential
-- Result: \(\Delta E \sim \alpha^5 m c^2 \ln(1/\alpha)\)
-- Interpretation: energy density of a closure defect
+CEP provides a geometric interpretation consistent with observed anomaly structure.
 
-### 7.2 Casimir Effect
-- Subsystem: EM field modes constrained by boundaries
-- Background: scale-free vacuum spectrum
-- Result: finite force from excluded closure modes
-- Interpretation: boundary-induced closure frustration
+Examples include:
 
-### 7.3 Renormalization Group Flow
-- Subsystem: finite-scale effective theory
-- Background: scale-free UV theory space
-- Result: running couplings, logs
-- Interpretation: perturbative enforcement of closure consistency
+### Lamb Shift
 
-### 7.4 Scale / Conformal Anomalies
-- Subsystem: regulated quantum fields
-- Background: classically scale-invariant geometry
-- Result: anomaly terms
-- Interpretation: residual closure energy after regularization
+Subsystem: atomic transport structure  
+Background: scale-free Coulomb transport  
 
-### 7.5 Gravity (Prospective)
-- Subsystem: local inertial frames
-- Background: curved spacetime with no preferred scale
-- Prediction: logarithmic or finite corrections tied to curvature
-- Interpretation: closure cost of parallel transport in curved manifolds
+Closure enforcement across scale produces logarithmic energy correction.
+
+---
+
+### Casimir Effect
+
+Subsystem: bounded electromagnetic transport modes  
+Background: scale-free vacuum mode structure  
+
+Boundary constraints induce closure mismatch across scale, producing finite closure energy.
+
+---
+
+### Renormalization
+
+Subsystem: finite-scale effective representation  
+Background: scale-free carrier transport  
+
+Renormalization encodes closure-enforcement energy required for projection consistency.
+
+Counterterms represent closure-energy corrections.
+
+---
+
+### Scale Anomalies
+
+Subsystem: classically scale-invariant transport  
+Background: projection-incompatible continuation structure  
+
+Closure enforcement produces finite anomaly corrections.
+
+---
+
+### Gravitational Transport (Prospective)
+
+Subsystem: local transport structure  
+Background: curved carrier transport  
+
+Closure enforcement may produce finite geometric corrections.
 
 ---
 
 ## 8. Renormalization Reinterpreted
 
-**CEP reframes renormalization:**
+CEP provides geometric interpretation consistent with renormalization behavior.
 
-> Renormalization is the perturbative shadow of enforcing closure.
+Renormalization represents closure-enforcement corrections required to maintain projection consistency across scale.
 
-- Divergences arise when closure cost is computed linearly or locally
-- Renormalized parameters encode the finite energy needed to restore consistency
-- Counterterms are bookkeeping devices, not fundamental entities
+Divergences arise when closure enforcement is treated incompletely.
 
-CEP explains *why* renormalization works, not just *how*.
+Renormalized quantities encode finite closure-enforcement energy.
+
+CEP explains the geometric origin of renormalization behavior.
+
+It does not replace renormalization formalism.
 
 ---
 
 ## 9. Universality and Falsifiability
 
-CEP makes falsifiable claims:
+CEP makes falsifiable structural predictions.
 
-- Linear (non-quadratic) anomaly costs should fail to reproduce observed hierarchies
-- Quadratic (energy-density) costs restore correct scaling
-- Removing scale invariance removes logarithmic accumulation
-- Closure costs vanish when subsystem and background transport match
+Logarithmic corrections should occur only when:
 
-These criteria are intended to be **explicitly falsifiable** and are being
-stress-tested across multiple DFT validation repositories using frozen parameters
-and public datasets.
+- subsystem and background transport mismatch exists, and  
+- mismatch persists across scale, and  
+- projection–closure enforcement is required.
+
+Logarithmic corrections should not occur when:
+
+- transport structures match, or  
+- mismatch is absent, or  
+- projection closure is naturally satisfied.
+
+Closure-enforcement energy should scale with closure stress magnitude.
+
+These predictions are structurally falsifiable.
+
+---
+
+## 9.1 Relationship to Σ₂ Admissibility
+
+Σ₂ classifies projection–closure admissibility.
+
+CEP describes closure-enforcement energy within admissible representations.
+
+Relationship:
+
+- Σ₂ determines admissibility structure.
+- CEP determines energetic consequences of closure enforcement.
+- Σ₂ governs admissibility classification.
+- CEP governs closure-energy manifestation.
+
+CEP does not determine admissibility.
+
+It operates only within admissible regimes.
 
 ---
 
 ## 10. Summary
 
-**Closure Energy Principle (CEP):**
+Closure Energy Principle (CEP) states:
 
-- Logarithms arise from scale-distributed closure stress
-- Finite anomalies are geometric energy penalties
-- Renormalization encodes closure enforcement
-- Vacuum fluctuations are not fundamental drivers
+Projection–closure mismatch distributed across logarithmic scale intervals produces closure-enforcement energy proportional to integrated squared closure stress.
 
-CEP provides a **single geometric spine** connecting quantum corrections, field theory structure, and emergent gravitational effects.
+Consequences:
 
-It is not a replacement for existing formalisms—but a deeper explanation of *why they work*.
+- Logarithmic anomaly corrections arise from geometric closure enforcement.
+- Renormalization encodes closure-enforcement energy.
+- Closure mismatch produces finite energetic corrections.
+- Logarithmic corrections are structural consequences of projection–closure enforcement.
 
+CEP provides a geometric mechanism-level explanation consistent with anomaly structure observed across multiple physical regimes.
+
+CEP operates within admissible projection structure defined by Σ₂.
+
+CEP explains energetic consequences of closure enforcement.
+
+It does not introduce new dynamics or ontology.
+
+It explains why closure-enforcement energy appears when projection closure must be maintained across incompatible transport structure.
