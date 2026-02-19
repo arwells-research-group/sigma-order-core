@@ -202,31 +202,33 @@ The ΣO core theory is written as a **single, internally numbered development**.
 
 - Section numbering inside documents is **authoritative**
 - File boundaries are organizational only
-- The recommended reading sequence is provided below
-- This document serves as the navigation spine; it does not replace core texts
+- This document is an index; it does not duplicate core texts
 
-**Recommended reading order for core theory:**
+**Recommended entry points (core theory):**
 
 1. **Foundations:** [`01_foundations/scalar_motion.md`](./01_foundations/scalar_motion.md)  
    Axioms and dual-frame architecture
 
 2. **Mechanics:** [`02_mechanics/winding_sectors.md`](./02_mechanics/winding_sectors.md)  
-   Sections 2.1–2.6: winding sector admissibility
+   Winding-sector admissibility (core mechanics)
 
 3. **Coherence:** [`02_mechanics/coherence_hierarchy.md`](./02_mechanics/coherence_hierarchy.md)  
-   Section 2.7+: coherence hierarchy and aperture L
+   Coherence hierarchy and aperture \(L\)
 
 4. **Verification:** [`03_verifications/atomic_residuals.md`](./03_verifications/atomic_residuals.md)  
    Empirical sufficiency and falsification gates
 
 5. **Geometry:** [`04_spatial_geometry/kernel_physicality.md`](./04_spatial_geometry/kernel_physicality.md)  
-   Background Phase Geometry (BPG)
+   Background Phase Geometry (BPG) and kernel physicality
 
 6. **Synthesis:** [`05_synthesis/spectral_shifts.md`](./05_synthesis/spectral_shifts.md)  
-   Integration across scales
+   Cross-domain integration and spectral structure
 
-**Note:** Section numbering inside documents is authoritative. File boundaries
-are for organization only.
+**Representational reconstruction layer (papers):**  
+For the motion-first Hilbert reconstruction and symmetry-induced complexification papers,
+see **§6.9** (single canonical listing location).
+
+**Note:** Section numbering inside documents is authoritative. File boundaries are for organization only.
 
 ---
 
@@ -283,8 +285,6 @@ Repository | Scope | Domain | Status | DOI
 ✅ [`kernel-gravity-witness`](https://github.com/arwells-research/kernel-gravity-witness) | Σ₂ transport admissibility witness (curvature/nonmetricity channels + diagnostic SPD metric-fit) | Patch-overlap transport (pre-gravity admissibility instrument) | Validated instrument | —
 ✅ [`dft-lambda-consistency`](https://github.com/arwells-research/dft-lambda-consistency) | Global consistency analysis | Cosmology foundations | Conceptual paper | 10.5281/zenodo.18437571
 ✅ [`admissibility-beyond-minimal-surfaces`](https://github.com/arwells-research/admissibility-beyond-minimal-surfaces) | Scope limits | Network geometry | Conceptual paper | 10.5281/zenodo.18444241
-✅ [`motion-first-quantum-kinematics`](https://github.com/arwells-research/motion-first-quantum-kinematics) | Representational reconstruction | Quantum kinematics (Hilbert representability) | Paper repo | 10.5281/zenodo.18646222
-✅ [`symmetry-induced-complexification`](https://github.com/arwells-research/symmetry-induced-complexification) | Symmetry-induced complexification | Quantum kinematics (complex structure from one-parameter symmetry) | Paper repo | 10.5281/zenodo.18692888
    
 ---
 
