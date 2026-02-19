@@ -1,66 +1,113 @@
 ## 2.7 The Hierarchy of Coherence
 
-In Dual-Frame Theory, coherence is not a binary state (coherent vs. decoherent) but a statistical
-measure of **phase-lock stability**. This stability is organized into a hierarchy based on
-correlation order and the spatial or temporal extent of the trajectory.
+In Σ-Order theory, coherence is defined operationally as the **stability of projection closure under continuation**.
 
-### 2.7.1 First-Order Coherence: The Visibility Envelope
+A trajectory or trajectory set is coherent to the extent that its projection from the T-frame into the S-frame remains consistent under extension of the continuation parameter.
 
-As modeled in **`mzi-phase-diffusion`**, first-order coherence describes the stability of a
-single trajectory relative to a reference path.
+Coherence therefore admits a hierarchy based on the order and extent of closure being evaluated.
 
-- **Mechanism:** The visibility V(τ) is the ensemble average of the relative phase
-  Δθ between paths.
-- **DFT insight:** Deterministic drift (linear phase rotation) does *not* degrade visibility.
-  Only stochastic diffusion—represented by white noise or Ornstein–Uhlenbeck (OU) processes—
-  causes decay of the coherence envelope.
+Lower levels concern individual trajectory closure. Higher levels concern joint or extended closure across multiple trajectories or spatial regions.
 
 ---
 
-### 2.7.2 Second-Order Coherence: Bunching and Statistics
+### 2.7.1 First-Order Coherence: Single-Trajectory Projection Stability
 
-As explored in **`g2-phase-statistics`** and **`hom-phase-diffusion`**, second-order coherence
-g² concerns joint arrival statistics of paired phase packets.
+First-order coherence measures whether a single projected trajectory maintains stable projection structure over a continuation interval τ.
 
-- **HBT bunching:** In DFT, this appears as a phase-driven correlation in which g²(τ) is a
-  projection of the first-order envelope |g¹(τ)|².
-- **HOM interference:** Interpreted as a *geometric collision* at a beam splitter. DFT
-  reproduces the HOM dip using deterministic phase diffusion, showing that the effect
-  arises from phase geometry rather than wavefunction antisymmetrization.
+Operationally, this is quantified by the visibility envelope:
 
----
+V(τ) = |⟨exp(i ΔΘ(τ))⟩|
 
-### 2.7.3 Long-Range Coherence: Bell-CHSH Dynamics
+where ΔΘ is the projected phase difference accumulated over interval τ.
 
-At the top of the hierarchy are correlations modeled in
-**`chsh-joint-phase`** and **`bell-correlations-joint-phase-dynamics`**.
+Empirically, this regime is studied in:
 
-- **Continuum limit:** Standard Quantum Mechanics corresponds to the zero-diffusion limit
-  of DFT.
-- **Realism thresholds:** By accounting for detector integration windows (T) and timing
-  jitter (σₜ), DFT provides a falsifiable map of how the Tsirelson bound (2√2) is preserved
-  or degraded across large S-frame separations.
+- `mzi-phase-diffusion`
+
+Loss of first-order coherence corresponds to loss of projection stability across continuation.
+
+Preservation of first-order coherence indicates stable projection closure for individual trajectories.
 
 ---
 
-### 2.7.4 Macroscopic Boundary Coherence: The Casimir Regime
+### 2.7.2 Second-Order Coherence: Joint Projection Stability
 
-At larger spatial scales, T-frame phase-lock is no longer anchored by a nucleus (as in atoms)
-but by **geometric boundary conditions**.
+Second-order coherence evaluates projection stability of trajectory pairs.
 
-- **Level A — Local averaging:** The S-frame vacuum treated as a flat local average
-  (proximity-force approximation).
-- **Level B — Diagnostic bridge:** The first detectable T-frame tension induced by smooth
-  geometric curvature, marking the transition from local to weakly non-local geometry.
-- **Level C — Nonlocal phase geometry:** Required when geometric wavevectors satisfy
-  k·d ≈ 1. In this regime, the T-frame manifold must explicitly resolve lateral mode coupling.
+This regime is quantified by the second-order correlation function:
+
+g²(τ)
+
+which measures statistical consistency of joint detection events.
+
+Empirical implementations include:
+
+- `g2-phase-statistics`
+- `hom-phase-diffusion`
+- `single-emitter-antibunching`
+
+Second-order coherence measures whether joint projection structure remains stable under continuation.
+
+Loss of second-order coherence corresponds to instability of joint closure.
+
+Preservation indicates admissible joint projection structure.
 
 ---
 
-This hierarchy ensures that the *vacuum handshake* is modeled with the same topological rigor
-at the MEMS scale as at the Bohr scale.
+### 2.7.3 Extended Projection Stability Across Spatial Separation
+
+Projection stability may also be evaluated across spatially separated regions.
+
+Empirical studies include:
+
+- `chsh-joint-phase`
+- `bell-correlations-joint-phase-dynamics`
+
+In this regime, coherence reflects whether projection closure remains stable across extended continuation domains.
+
+Observable correlation limits provide operational diagnostics of projection stability.
+
+No interpretive assumptions beyond projection consistency are required.
 
 ---
 
-*For the underlying mathematics of these transitions, see the derivation of the coherence
-factor Gₙ in the Synthesis module.*e.*
+### 2.7.4 Geometry-Limited Coherence
+
+In systems lacking localized winding anchors, projection stability depends on boundary geometry.
+
+Examples include cavity systems and boundary-defined configurations.
+
+Three operational regimes may be distinguished:
+
+**Local projection regime**
+
+Projection stability determined by local geometry.
+
+**Intermediate regime**
+
+Projection stability depends on extended geometric structure.
+
+**Global regime**
+
+Projection stability determined by full boundary configuration.
+
+Loss of coherence corresponds to failure of closure under extended projection.
+
+---
+
+### 2.7.5 Summary
+
+The coherence hierarchy reflects progressively stronger projection closure requirements:
+
+| Level | Closure type | Operational meaning |
+|------|---------------|--------------------|
+| First-order | Single trajectory | Individual projection stability |
+| Second-order | Joint trajectories | Paired projection stability |
+| Extended | Multi-region | Projection stability across separation |
+| Geometry-limited | Boundary-dependent | Projection stability determined by geometry |
+
+Coherence is therefore a diagnostic of projection closure stability under continuation.
+
+Loss of coherence corresponds to projection instability.
+
+Preservation of coherence corresponds to admissible closure.
